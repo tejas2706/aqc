@@ -378,12 +378,9 @@ with sync_tab:
         st.metric("People loaded", len(st.session_state.dataset.get("records", [])))
 
     st.markdown('<div class="section-title">Upload new Excel</div>', unsafe_allow_html=True)
-    st.markdown(
-        '<div class="tab-copy">Upload another attendee workbook to merge new rows into the current sheet. Existing rows are skipped automatically.</div>',
-        unsafe_allow_html=True,
-    )
+
     uploaded_file = st.file_uploader(
-        "Upload an Excel file",
+        "",
         type=["xlsx"],
         key="upload_excel_file",
         help="Only new attendee rows will be appended to the current workbook.",
