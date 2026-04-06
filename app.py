@@ -7,6 +7,7 @@ from aqc_data import (
     DATA_PATH,
     WORKBOOK_PATH,
     add_attendee,
+    import_attendees_from_workbook,
     load_or_create_dataset,
     search_attendees,
     workbook_bytes,
@@ -242,14 +243,36 @@ def refresh_dataset(force_refresh: bool = False) -> dict:
     return load_or_create_dataset(force_refresh=force_refresh)
 
 
+def tag_pill_style(result: dict) -> str:
+    tag_color = result.get("tagColor", "").strip()
+    tag_border_color = result.get("tagBorderColor", "").strip() or tag_color
+    tag_text_color = result.get("tagTextColor", "").strip()
+
+    if not tag_color:
+        return ""
+
+    if not tag_color.startswith("#") or len(tag_color) != 7:
+        return ""
+    if not tag_text_color:
+        red = int(tag_color[1:3], 16)
+        green = int(tag_color[3:5], 16)
+        blue = int(tag_color[5:7], 16)
+        luminance = (0.299 * red) + (0.587 * green) + (0.114 * blue)
+        tag_text_color = "#ffffff" if luminance < 150 else "#1f2937"
+    return (
+        f' style="background:{tag_color}; border-color:{tag_border_color}; color:{tag_text_color};"'
+    )
+
+
 def render_result_cards(results: list[dict]) -> None:
     cards = []
     for result in results:
+        pill_style = tag_pill_style(result)
         cards.append(
             (
                 '<div class="result-card">'
                 f'<h3 class="result-name">{escape(result.get("name", "Unknown"))}</h3>'
-                f'<div class="tag-pill">{escape(result.get("tag", "-"))}</div>'
+                f'<div class="tag-pill"{pill_style}>{escape(result.get("tag", "-"))}</div>'
                 f'<p class="result-meta"><strong>Email ID:</strong> {escape(result.get("emailId", "-") or "-")}</p>'
                 f'<p class="result-meta"><strong>Institute:</strong> {escape(result.get("institute", "-") or "-")}</p>'
                 f'<p class="result-meta"><strong>Hub:</strong> {escape(result.get("hub", "-") or "-")}</p>'
@@ -353,6 +376,25 @@ with sync_tab:
             st.success(f"Reloaded attendee data into {DATA_PATH.name}")
     with col2:
         st.metric("People loaded", len(st.session_state.dataset.get("records", [])))
+
+    st.markdown('<div class="section-title">Upload new Excel</div>', unsafe_allow_html=True)
+    st.markdown(
+        '<div class="tab-copy">Upload another attendee workbook to merge new rows into the current sheet. Existing rows are skipped automatically.</div>',
+        unsafe_allow_html=True,
+    )
+    uploaded_file = st.file_uploader(
+        "Upload an Excel file",
+        type=["xlsx"],
+        key="upload_excel_file",
+        help="Only new attendee rows will be appended to the current workbook.",
+    )
+    if uploaded_file is not None:
+        if st.button("Merge uploaded Excel", use_container_width=True, key="merge_uploaded_excel"):
+            summary = import_attendees_from_workbook(uploaded_file.getvalue())
+            st.session_state.dataset = refresh_dataset(force_refresh=True)
+            st.success(
+                f"Processed {summary['uploaded']} row(s): imported {summary['imported']} and skipped {summary['skipped']} duplicate row(s)."
+            )
 
 with add_tab:
     st.markdown('<div class="section-title">Add attendee</div>', unsafe_allow_html=True)

@@ -1,1022 +1,1425 @@
 {
-  "generated_at": "2026-04-06T06:05:48.095289+00:00",
-  "source_file": "AQC Planning.xlsx",
+  "generated_at": "2026-04-06T17:56:26.897778+00:00",
+  "source_file": "AQC Attendee List.xlsx",
   "sheet_name": "Attendee List",
   "records": [
     {
       "name": "Dr. Akshay Naik",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Bangalore",
       "hub": "IIT Bombay",
       "emailId": "anaik@iisc.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Akshay Singh",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Bangalore",
       "hub": "IISc Bangalore",
       "emailId": "aksy@iisc.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Amitangshu Pal",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Kanpur",
       "hub": "IIT Bombay",
       "emailId": "amitangshu@cse.iitk.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Anil Shaji",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Education and Research Thiruvananthapuram",
       "hub": "IISc Bangalore",
       "emailId": "shaji@iisertvm.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Anirban Mitra",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Roorkee",
       "hub": "IIT Delhi",
       "emailId": "anirban.mitra@ph.iitr.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Ankur Raina",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Education and Research Bhopal",
       "hub": "IIT Madras",
       "emailId": "ankur@iiserb.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Anshul Jaiswal",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Roorkee",
       "hub": "IIT Madras",
       "emailId": "anshul.jaiswal@ece.iitr.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Anshuman Kumar",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Bombay",
       "hub": "IIT Delhi",
       "emailId": "anshuman.kumar@iitb.ac. in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Arijit Sharma",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Tirupati",
       "hub": "IIT Madras",
       "emailId": "arijit@iittp.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Ashok K Mohapatra",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "National Institue of Science Education and Research Bhubaneswar",
       "hub": "IISc Bangalore",
       "emailId": "a.mohapatra@niser.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Awanish Pandey",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Delhi",
       "hub": "IISc Bangalore",
       "emailId": "awanish@ee.iitd.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Baladitya Suri",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Bangalore",
       "hub": "IISc Bangalore",
       "emailId": "surib@iisc.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Bhaskar Kanseri",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Delhi",
       "hub": "IIT Madras",
       "emailId": "bkanseri@physics.iitd.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Bimalendu Deb",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Association for the Cultivation of Science",
       "hub": "IIT Bombay",
       "emailId": "msbd@iacs.res.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. D. S. Rawal",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Solid State Physics laboratory (SSPL), Defense Research Development Organization (DRDO)",
       "hub": "IIT Delhi",
       "emailId": "ds-rawal.sspl@gov.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Debapriya Basu Roy",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Kanpur",
       "hub": "IIT Madras",
       "emailId": "dbroy@cse.iitk.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Debdeep Mukhopadhyay",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Kharagpur",
       "hub": "IIT Madras",
       "emailId": "debdeep@cse.iitkgp.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Dhiman Saha",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Bhilai",
       "hub": "IIT Madras",
       "emailId": "dhiman@iitbhilai.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. G Rajalakshmi",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Tata Institute of Fundamental Research Hyderabad",
       "hub": "IIT Bombay",
       "emailId": "raji@tifrh.res.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Girish Vasant Kulkarni",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Ropar",
       "hub": "IIT Bombay",
       "emailId": "girishk@iitrpr.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Kanhaiya Pandey",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Guwahati",
       "hub": "IISc Bangalore",
       "emailId": "kanhaiyapandey@iitg.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Kasturi Saha",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Indian Institute of Technology Bombay",
       "hub": "IIT Bombay",
       "emailId": "pic@qmettech.com",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Madhu Thalakulam",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Education and Research Thiruvananthapuram",
       "hub": "IISc Bangalore",
       "emailId": "madhu@iisertvm.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Mrigank Sharad",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Kharagpur",
       "hub": "IIT Delhi",
       "emailId": "mrigank@see.iitk.gp.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Natarajan Venkatachalam",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Society for Electronic Transactions and Security (SETS)",
       "hub": "IISc Bangalore",
       "emailId": "natarajan@setsindia.net",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Neel Kanth Kundu",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Delhi",
       "hub": "IIT Madras",
       "emailId": "neelkanth@iitd.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Parvendra Kumar",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Delhi",
       "hub": "IIT Madras",
       "emailId": "parvendra@opc.iitd.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Phani Kumar Peddibhotla",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Education and Research Bhopal",
       "hub": "IIT Bombay",
       "emailId": "phani@iiserb.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Prabha Mandayam",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Madras",
       "hub": "IISc Bangalore",
       "emailId": "prabhamd@physics.iitm.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Prasana Kumar Sahoo",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Kharagpur",
       "hub": "IIT Delhi",
       "emailId": "prasana@matsc.iitkgp.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Prosenjit Sen",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Bangalore",
       "hub": "IIT Bombay",
       "emailId": "prosenjits@iisc.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Raghavan K Easwaran",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Patna",
       "hub": "IIT Madras",
       "emailId": "raghavanke@iitp.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Rahul Singh",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Bombay",
       "hub": "IISc Bangalore | IIT Bombay",
       "emailId": "rahuls_ee@iitb.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Rajamani Vijayaraghavan",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Tata Institute of Fundamental Research Mumbai",
       "hub": "IISc Bangalore",
       "emailId": "rvijay26@gmail.com",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Rajesh Kumar",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Roorkee",
       "hub": "IIT Delhi",
       "emailId": "rajesh.kumar@bt.iitr.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Rakesh Kumar Palani",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Delhi",
       "hub": "IISc Bangalore",
       "emailId": "palanirakesh@gmail.com",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Rejish Nath Gopinathan Rejani",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Education and Research Pune",
       "hub": "IISc Bangalore",
       "emailId": "rejish@iiserpune.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Rituraj",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Kanpur",
       "hub": "IIT Bombay",
       "emailId": "rituraj@iitk.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Rohit Chaurasiya",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Jammu",
       "hub": "IIT Madras",
       "emailId": "rohit.chaurasiya@iitjammu.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Sai Vinjanampathy",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Bombay",
       "hub": "IISc Bangalore",
       "emailId": "sai@quantumlah.org",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Saikat Ghosh",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Kanpur",
       "hub": "IIT Bombay",
       "emailId": "gsaikat@iitk.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Sandeep Kumar Goyal",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Education and Research Mohali",
       "hub": "IIT Madras",
       "emailId": "skgoyal@iisermohali.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Sanjib Dey",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Birla Institute of Technology and Science Pilani, Goa",
       "hub": "IIT Bombay",
       "emailId": "sanjibd@goa.bits-pilani.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Santanu Talukder",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Education and Research Bhopal",
       "hub": "IIT Bombay",
       "emailId": "santanu@iiserb.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Saptarishi Chaudhuri",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Raman Research Institute",
       "hub": "IISc Bangalore",
       "emailId": "srishic@rri.res.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Sarani Bhattacharya",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Kharagpur",
       "hub": "IIT Madras",
       "emailId": "sarani@cse.iitkgp.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Saravana Kumar M",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Roorkee",
       "hub": "IISc Bangalore",
       "emailId": "saravana.kumar@ece.iitr.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Senthil Kumar M",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Space Application Centre, ISRO",
       "hub": "IIT Madras",
       "emailId": "senthil@sac.isro.gov.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Siddharth Tallur",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Bombay",
       "hub": "IIT Bombay",
       "emailId": "stallur@ee.iitb.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Sourav Dutta",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Tata Institute of Fundamental Research Mumbai",
       "hub": "IIT Bombay",
       "emailId": "sourav.dutta.mr@gmail.com",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Sudipta Dubey",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Kanpur",
       "hub": "IIT Delhi",
       "emailId": "sudiptad@iitk.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Tanmoy Basu",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "TCG Centres for Research and Education in Science and Technology",
       "hub": "IIT Bombay",
       "emailId": "tanmoy.basu@tcgcrest.org",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Uditendu Mukhopadhyay",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Bombay",
       "hub": "IISc Bangalore",
       "emailId": "uditendu.mukhopadhyay@gmail.com",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Utpal Roy",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Patna",
       "hub": "IISc Bangalore",
       "emailId": "uroy@iitp.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Veeresh Vidyadhar Deshpande",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Bombay",
       "hub": "IISc Bangalore | IIT Bombay",
       "emailId": "veeresh@iitb.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Vemuru Subrahmanyam",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "University of Hyderabad",
       "hub": "IIT Bombay",
       "emailId": "vmanisp@uohyd.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Venkata Jayasurya Yallapragada",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Kanpur",
       "hub": "IIT Bombay",
       "emailId": "jayasurya@iitk.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Vibhor Singh",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Bangalore",
       "hub": "IISc Bangalore",
       "emailId": "v.singh@iisc.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Vidya Praveen Bhallamudi",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Madras",
       "hub": "IIT Bombay",
       "emailId": "praveen.bhallamudi@iitm.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Vishvendra Singh Poonia",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Roorkee",
       "hub": "IISc Bangalore",
       "emailId": "vishvendra@ece.iitr.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Vishwa Pal",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Ropar",
       "hub": "IIT Bombay",
       "emailId": "vishwa.pal@iitrpr.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Mr. Deepak Gaur",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Centre for Development of Telematics",
       "hub": "IIT Madras",
       "emailId": "dgaur@cdot.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Mr. Prashant Chugh",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Centre for Development of Telematics",
       "hub": "IIT Madras",
       "emailId": "prashant@cdot.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Mr. S Henry Sukumar",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Centre for Development of Advanced Computing, Bangalore",
       "hub": "IISc Bangalore",
       "emailId": "henrys@cdac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Mr. Vaibhav Pratap Singh",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Centre for Development of Advanced Computing, Bangalore",
       "hub": "IISc Bangalore",
       "emailId": "svaibhav@cdac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Abhisek Dixit",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Delhi",
       "hub": "IISc Bangalore",
       "emailId": "abhisek.dixit@gmail.com",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Ajay Wasan",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Roorkee",
       "hub": "IISc Bangalore",
       "emailId": "awasan@ph.iitr.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Ambarish Ghosh",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Bangalore",
       "hub": "IIT Bombay",
       "emailId": "ambarish@iisc.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Anand Kumar Jha",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Kanpur",
       "hub": "IIT Bombay",
       "emailId": "akjha@iitk.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Anil Prabhakar",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Madras",
       "hub": "IIT Madras",
       "emailId": "anil@ee.iitm.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Anirban Pathak",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Jaypee Institute of Information Technology",
       "hub": "IISc Bangalore",
       "emailId": "anirban.pathak@jiit.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Ankesh Jain",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Delhi",
       "hub": "IISc Bangalore",
       "emailId": "ankesh@ee.iitd.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Apoorva Dayaram Patel",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Bangalore",
       "hub": "IISc Bangalore",
       "emailId": "adpatel@iisc.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Ashish Arora",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Education and Research Pune",
       "hub": "IIT Delhi",
       "emailId": "ashish.arora@iiserpune.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Avinash Lahgere",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Kanpur",
       "hub": "IISc Bangalore",
       "emailId": "alahgere@iitk.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Chandrashekhar C M",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Bangalore",
       "hub": "IISc Bangalore",
       "emailId": "chandracm@iisc.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Chetan Singh Thakur",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Bangalore",
       "hub": "IISc Bangalore",
       "emailId": "csthakur@iisc.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Darshak Bhatt",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Roorkee",
       "hub": "IISc Bangalore",
       "emailId": "darshak.bhatt@ece.iitr.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Devarshi Mrinal Das",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Ropar",
       "hub": "IISc Bangalore",
       "emailId": "devarshi.das@iitrpr.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Dibyajyoti Ghosh",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Delhi",
       "hub": "IIT Delhi",
       "emailId": "dibyajyoti@mse.iitd.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Gopalan Rajaraman",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Bombay",
       "hub": "IIT Delhi",
       "emailId": "rajaraman@chem.iitb.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Jaydeep Kumar Basu",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Bangalore",
       "hub": "IISc Bangalore",
       "emailId": "basu@iisc.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Karun Rawat",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Roorkee",
       "hub": "IIT Delhi",
       "emailId": "karun.rawat@ece.iitr.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Kausik Majumdar",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Bangalore",
       "hub": "IISc Bangalore",
       "emailId": "kausikm@iisc.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Kedar Khare",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Delhi",
       "hub": "IIT Bombay",
       "emailId": "kedark@opc.iitd.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Kolin Paul",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Delhi",
       "hub": "IISc Bangalore",
       "emailId": "kolin.paul@gmail.com",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Krishna B Balasubramanian",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Delhi",
       "hub": "IIT Delhi",
       "emailId": "bkrishna@mse.iitd.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. M S Ramachandra Rao",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Madras",
       "hub": "IIT Bombay",
       "emailId": "msrrao@iitm.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Maniraj Mahalingam",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Bombay",
       "hub": "IIT Delhi",
       "emailId": "maniraj@iitb.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Mukesh Kumar",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Indore",
       "hub": "IISc Bangalore",
       "emailId": "mukesh.kr@iiti.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Neeraj Goel",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Ropar",
       "hub": "IISc Bangalore",
       "emailId": "neeraj@iitrpr.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Pratap Raychaudhuri",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Tata Institute of Fundamental Research Mumbai",
       "hub": "IIT Bombay",
       "emailId": "pratap.raychaudhuri2020@gmail.com",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Praveen Kumar",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Association for the Cultivation of Science",
       "hub": "IIT Delhi",
       "emailId": "praveen.kumar@iacs.res.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Rajan Jha",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Bhubaneswar",
       "hub": "IIT Delhi",
       "emailId": "rjha@iitbbs.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Rajendra Singh",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Delhi",
       "hub": "IIT Delhi",
       "emailId": "Rajendra.Singh@physics.iitd.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Ravi Pant",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Education and Research Thiruvananthapuram",
       "hub": "IISc Bangalore",
       "emailId": "rpant@iisertvm.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Ravikiran Yeleswarapu",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Birla Institute of Technology and Science Pilani, Hyderabad Campus",
       "hub": "IISc Bangalore",
       "emailId": "ravikiran.y@hyderabad.bits-pilani.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Samaresh Das",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Delhi",
       "hub": "IISc Bangalore",
       "emailId": "samaresh.das@gmail.com",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Santanu Manna",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Delhi",
       "hub": "IIT Delhi",
       "emailId": "mannasan@ee.iitd.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Saurabh Lodha",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Bombay",
       "hub": "IIT Delhi",
       "emailId": "slodha@ee.iitb.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Shailendra K Varshney",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Kharagpur",
       "hub": "IIT Delhi",
       "emailId": "skvarshney@ece.iitkgp.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Shankar Kumar Selvaraja",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Bangalore",
       "hub": "IISc Bangalore",
       "emailId": "shankarks@iisc.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Swaroop Ganguly",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Bombay",
       "hub": "IIT Delhi",
       "emailId": "sganguly@ee.iitb.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Umakant Damodar Rapol",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Education and Research Pune",
       "hub": "IISc Bangalore",
       "emailId": "umakant.rapol@iiserpune.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Urbasi Sinha",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Raman Research Institute",
       "hub": "IIT Madras",
       "emailId": "usinha@rri.res.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. Varun Raghunathan",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Bangalore",
       "hub": "IIT Madras",
       "emailId": "varunr@iisc.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Sarada Prasad Gochhayat",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Jammu",
       "hub": "IIT Madras",
       "emailId": "sarada.gochhayat@iitjammu.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Sunil Nair",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Science Education and Research Pune",
       "hub": "I-Hub QTF",
       "emailId": "sunil@iiserpune.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Naresh Kumar Emani",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Hyderabad",
       "hub": "IIT Madras",
       "emailId": "naresh@ee.iith.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Prof. M V Panduranga Rao",
-      "tag": "PI",
+      "tag": "PI, T-Hub",
       "institute": "Indian Institute of Technology Hyderabad",
       "hub": "IIT Madras",
       "emailId": "mvp@cse.iith.ac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Mr. Aneesh Kumar K B",
+      "tag": "PI, T-Hub",
+      "institute": "Centre for Development of Advanced Computing, Thiruvananthapuram",
+      "hub": "IIT Madras",
+      "emailId": "aneesh_kb@cdac.in",
+      "tagColor": "#00B050",
+      "tagBorderColor": "#00B050",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Ravindra Barlingay",
-      "tag": "Hub",
+      "tag": "T-Hub",
       "institute": "IITM CDOT Samgnya Foundation",
       "hub": "IIT Madras",
       "emailId": "ceo@samgnya.in",
+      "tagColor": "#7030A0",
+      "tagBorderColor": "#7030A0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Kiran Shesh",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "ceo@qmettech.com",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Venkateswaran PS",
-      "tag": "Hub",
+      "tag": "T-Hub",
       "institute": "Foundation for QC Innovation",
       "hub": "IISc Bangalore",
       "emailId": "venkatps@qcinnovation.co.in",
+      "tagColor": "#7030A0",
+      "tagBorderColor": "#7030A0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Kunj Tandon",
-      "tag": "Hub",
+      "tag": "T-Hub",
       "institute": "I-Hub Quantum Technology Foundation",
       "hub": "I-Hub QTF",
       "emailId": "kunjtandon@quantech.org.in",
+      "tagColor": "#7030A0",
+      "tagBorderColor": "#7030A0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Aditya SG Vyas",
-      "tag": "Hub",
+      "tag": "T-Hub",
       "institute": "QMD Foundation",
       "hub": "IIT Delhi",
       "emailId": "ceo@qmdhub.co.in",
+      "tagColor": "#7030A0",
+      "tagBorderColor": "#7030A0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Tejas Naik",
-      "tag": "Hub",
+      "tag": "T-Hub",
       "institute": "QMD Foundation",
       "hub": "IIT Delhi",
       "emailId": "tejasnaikr@gmail.com",
+      "tagColor": "#7030A0",
+      "tagBorderColor": "#7030A0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Vijay A Ramanujan",
-      "tag": "Hub",
+      "tag": "T-Hub",
       "institute": "Foundation for QC Innovation",
       "hub": "IISc Bangalore",
       "emailId": "vijay@qcinnovation.co.in",
+      "tagColor": "#7030A0",
+      "tagBorderColor": "#7030A0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Ramya Raman",
-      "tag": "Hub",
+      "tag": "T-Hub",
       "institute": "IITM CDOT Samgnya Foundation",
       "hub": "IIT Madras",
       "emailId": "ramya@samgnya.in",
+      "tagColor": "#7030A0",
+      "tagBorderColor": "#7030A0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Venkata Sudhakar Guduru",
-      "tag": "Hub",
+      "tag": "T-Hub",
       "institute": "IITM CDOT Samgnya Foundation",
       "hub": "IIT Madras",
       "emailId": "sudhakar@samgnya.in",
+      "tagColor": "#7030A0",
+      "tagBorderColor": "#7030A0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Nahid Chaudhary",
-      "tag": "Hub",
+      "tag": "T-Hub",
       "institute": "QMD Foundation",
       "hub": "IIT Delhi",
       "emailId": "technologymanager2@qmdhub.co.in",
+      "tagColor": "#7030A0",
+      "tagBorderColor": "#7030A0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Sourav Sarkar",
-      "tag": "Hub",
+      "tag": "T-Hub",
       "institute": "QMD Foundation",
       "hub": "IIT Delhi",
       "emailId": "projectconsultant1@qmdhub.co.in",
+      "tagColor": "#7030A0",
+      "tagBorderColor": "#7030A0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Jagrati Dwivedi",
-      "tag": "Hub",
+      "tag": "T-Hub",
       "institute": "QMD Foundation",
       "hub": "IIT Delhi",
       "emailId": "projectconsultant2@qmdhub.co.in",
+      "tagColor": "#7030A0",
+      "tagBorderColor": "#7030A0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "James  Johnson",
-      "tag": "Hub",
+      "tag": "T-Hub",
       "institute": "I-Hub Quantum Technology Foundation",
       "hub": "I-Hub QTF",
       "emailId": "james_j@quantech.org.in",
+      "tagColor": "#7030A0",
+      "tagBorderColor": "#7030A0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Rajan Kumar Singh",
-      "tag": "Hub",
+      "tag": "T-Hub",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "rajanks@iitk.ac.in",
+      "tagColor": "#7030A0",
+      "tagBorderColor": "#7030A0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Gayathri Raman",
-      "tag": "Hub",
+      "tag": "T-Hub",
       "institute": "QMD Foundation",
       "hub": "IIT Delhi",
       "emailId": "g3raman@iitb.ac.in",
+      "tagColor": "#7030A0",
+      "tagBorderColor": "#7030A0",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Pramod Watekar",
+      "tag": "T-Hub",
+      "institute": "QMD Foundation",
+      "hub": "IIT Delhi",
+      "emailId": "drpramodwatekar@iitkgp.ac.in",
+      "tagColor": "#7030A0",
+      "tagBorderColor": "#7030A0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Maheshwar Mangat",
-      "tag": "Hub",
+      "tag": "T-Hub",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "maheshwar.mangat@iitb.ac.in",
+      "tagColor": "#7030A0",
+      "tagBorderColor": "#7030A0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "RAMSHANKER",
-      "tag": "Hub",
+      "tag": "T-Hub",
       "institute": "Foundation for QC Innovation",
       "hub": "IISc Bangalore",
       "emailId": "ramshanker@qcinnovation.co.in",
+      "tagColor": "#7030A0",
+      "tagBorderColor": "#7030A0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1025,6 +1428,9 @@
       "institute": "Foundation for QC Innovation",
       "hub": "IISc Bangalore",
       "emailId": "eez248406@ee.iitd.ac.in",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1033,6 +1439,9 @@
       "institute": "Foundation for QC Innovation",
       "hub": "IISc Bangalore",
       "emailId": "deepesh.sharma@ee.iitd.ac.in",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1041,6 +1450,9 @@
       "institute": "Foundation for QC Innovation",
       "hub": "IISc Bangalore",
       "emailId": "rajat21@iisertvm.ac.in",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1049,6 +1461,9 @@
       "institute": "Foundation for QC Innovation",
       "hub": "IISc Bangalore",
       "emailId": "204120010@iitb.ac.in",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1057,6 +1472,9 @@
       "institute": "Foundation for QC Innovation",
       "hub": "IISc Bangalore",
       "emailId": "sujaimatta@iisc.ac.in",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1065,6 +1483,9 @@
       "institute": "Foundation for QC Innovation",
       "hub": "IISc Bangalore",
       "emailId": "soumyaasokan@iisc.ac.in",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1073,6 +1494,9 @@
       "institute": "Foundation for QC Innovation",
       "hub": "IISc Bangalore",
       "emailId": "shantharamk@iisc.ac.in",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1081,6 +1505,9 @@
       "institute": "Foundation for QC Innovation",
       "hub": "IISc Bangalore",
       "emailId": "pavkalyan100@gmail.com",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1089,6 +1516,9 @@
       "institute": "Quanastra Pvt Ltd",
       "hub": "I-Hub QTF, IISER Pune",
       "emailId": "vidur.raj@quanastra.com",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1097,6 +1527,9 @@
       "institute": "Quanastra Pvt Ltd",
       "hub": "I-Hub QTF, IISER Pune",
       "emailId": "s21027@students.iitmandi.ac.in",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1105,6 +1538,9 @@
       "institute": "SCI-COM SOFTWARE INDIA PRIVATE LIMITED",
       "hub": "I-Hub QTF, IISER Pune",
       "emailId": "vaishnavi.vaichal@scicomsoftware.com",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1113,6 +1549,9 @@
       "institute": "SCI-COM SOFTWARE INDIA PRIVATE LIMITED",
       "hub": "I-Hub QTF, IISER Pune",
       "emailId": "suhas.kulkarni@scicomsoftware.com",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1121,6 +1560,9 @@
       "institute": "Prenishq",
       "hub": "I-Hub QTF, IISER Pune",
       "emailId": "bodhaditya.santra@gmail.com",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1129,6 +1571,9 @@
       "institute": "Prenishq",
       "hub": "I-Hub QTF, IISER Pune",
       "emailId": "shubhamutreja77@gmail.com",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1136,7 +1581,10 @@
       "tag": "Expo",
       "institute": "QuNu Labs Pvt Ltd",
       "hub": "I-Hub QTF, IISER Pune",
-      "emailId": "",
+      "emailId": "sud@qnulabs.com",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1144,7 +1592,10 @@
       "tag": "Expo",
       "institute": "QuNu Labs Pvt Ltd",
       "hub": "I-Hub QTF, IISER Pune",
-      "emailId": "",
+      "emailId": "arsh@qnulabs.com",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1153,6 +1604,9 @@
       "institute": "QpiAI Pvt Ltd",
       "hub": "I-Hub QTF, IISER Pune",
       "emailId": "vamsi.k@qpiai.tech",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1161,6 +1615,9 @@
       "institute": "QpiAI Pvt Ltd",
       "hub": "I-Hub QTF, IISER Pune",
       "emailId": "Firoz.t@qpiai.tech",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1169,6 +1626,9 @@
       "institute": "Quantum AI Global (QAIG)",
       "hub": "IIT Madras",
       "emailId": "devendra.mishra@qulabs.ai",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1177,6 +1637,9 @@
       "institute": "Quantum AI Global (QAIG)",
       "hub": "IIT Madras",
       "emailId": "sanjay@thequantum.ai",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1185,6 +1648,9 @@
       "institute": "IITM CDOT Samgnya Technologies Foundation",
       "hub": "IIT Madras",
       "emailId": "ashutosh@ee.iitm.ac.in",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1193,6 +1659,9 @@
       "institute": "IITM CDOT Samgnya Technologies Foundation",
       "hub": "IIT Madras",
       "emailId": "anaghagayathri@smail.iitm.ac.in",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1201,6 +1670,9 @@
       "institute": "IITM CDOT Samgnya Technologies Foundation",
       "hub": "IIT Madras",
       "emailId": "abhilashkd@iitbhilai.ac.in",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1209,6 +1681,9 @@
       "institute": "IITM CDOT Samgnya Technologies Foundation",
       "hub": "IIT Madras",
       "emailId": "",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1217,6 +1692,9 @@
       "institute": "IITM CDOT Samgnya Technologies Foundation",
       "hub": "IIT Madras",
       "emailId": "bhaskarsarkar1213@gmail.com",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1225,6 +1703,9 @@
       "institute": "IITM CDOT Samgnya Technologies Foundation",
       "hub": "IIT Madras",
       "emailId": "phz228454@iitd.ac.in",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1233,6 +1714,9 @@
       "institute": "Synergy Quantum",
       "hub": "IIT Madras",
       "emailId": "shubham.prajapati@synergyquantum.in",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1241,6 +1725,9 @@
       "institute": "Synergy Quantum",
       "hub": "IIT Madras",
       "emailId": "snehal@synergyquantum.in",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1249,6 +1736,9 @@
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "aniketnag24@iitk.ac.in",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1257,6 +1747,9 @@
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "pmohta@iitk.ac.in",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1265,6 +1758,9 @@
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "p.hegde@physics.iitm.ac.in",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1273,6 +1769,9 @@
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "johnj.tifr@gmail.com",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1281,6 +1780,9 @@
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "poojagunjal1212@gmail.com",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1289,6 +1791,9 @@
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "roopaj@iisc.ac.in",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1297,6 +1802,9 @@
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "purnapal@iisc.ac.in",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1305,6 +1813,9 @@
       "institute": "Nostradamus",
       "hub": "IIT Bombay",
       "emailId": "shouvik@qubeats.com",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1313,6 +1824,9 @@
       "institute": "Nostradamus",
       "hub": "IIT Bombay",
       "emailId": "pritam@qubeats.com",
+      "tagColor": "#FFC000",
+      "tagBorderColor": "#FFC000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1321,6 +1835,9 @@
       "institute": "Foundation for QC Innovation",
       "hub": "IISc Bangalore",
       "emailId": "nishithn@iisc.ac.in",
+      "tagColor": "#747373",
+      "tagBorderColor": "#747373",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1329,6 +1846,9 @@
       "institute": "Foundation for QC Innovation",
       "hub": "IISc Bangalore",
       "emailId": "sancharic@iisc.ac.in",
+      "tagColor": "#747373",
+      "tagBorderColor": "#747373",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1337,6 +1857,9 @@
       "institute": "Foundation for QC Innovation",
       "hub": "IISc Bangalore",
       "emailId": "akshait@iisc.ac.in",
+      "tagColor": "#747373",
+      "tagBorderColor": "#747373",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1345,6 +1868,9 @@
       "institute": "Foundation for QC Innovation",
       "hub": "IISc Bangalore",
       "emailId": "srijitadas22@gmail.com",
+      "tagColor": "#747373",
+      "tagBorderColor": "#747373",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1353,6 +1879,9 @@
       "institute": "Foundation for QC Innovation",
       "hub": "IISc Bangalore",
       "emailId": "vaibhavas@iisc.ac.in",
+      "tagColor": "#747373",
+      "tagBorderColor": "#747373",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1361,6 +1890,9 @@
       "institute": "IITM CDOT Samgnya Technologies Foundation",
       "hub": "IIT Madras",
       "emailId": "shahnoorali1989@gmail.com",
+      "tagColor": "#747373",
+      "tagBorderColor": "#747373",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1369,6 +1901,9 @@
       "institute": "IITM CDOT Samgnya Technologies Foundation",
       "hub": "IIT Madras",
       "emailId": "debadrita@rrimail.rri.res.in",
+      "tagColor": "#747373",
+      "tagBorderColor": "#747373",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1377,6 +1912,9 @@
       "institute": "IITM CDOT Samgnya Technologies Foundation",
       "hub": "IIT Madras",
       "emailId": "dr.satishseth@iisermohali.ac.in",
+      "tagColor": "#747373",
+      "tagBorderColor": "#747373",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1385,6 +1923,9 @@
       "institute": "IITM CDOT Samgnya Technologies Foundation",
       "hub": "IIT Madras",
       "emailId": "ee19d021@smail.iitm.ac.in",
+      "tagColor": "#747373",
+      "tagBorderColor": "#747373",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1393,6 +1934,9 @@
       "institute": "IITM CDOT Samgnya Technologies Foundation",
       "hub": "IIT Madras",
       "emailId": "siddhartha.chowdhury92@gmail.com",
+      "tagColor": "#747373",
+      "tagBorderColor": "#747373",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1401,6 +1945,9 @@
       "institute": "IITM CDOT Samgnya Technologies Foundation",
       "hub": "IIT Madras",
       "emailId": "baratamsaitarun@gmail.com",
+      "tagColor": "#747373",
+      "tagBorderColor": "#747373",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1409,6 +1956,9 @@
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "kamalt24@iitk.ac.in",
+      "tagColor": "#747373",
+      "tagBorderColor": "#747373",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1417,6 +1967,9 @@
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "rakeshd24@iitk.ac.in",
+      "tagColor": "#747373",
+      "tagBorderColor": "#747373",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1425,6 +1978,9 @@
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "eklavy.vashist@qmettech.com",
+      "tagColor": "#747373",
+      "tagBorderColor": "#747373",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1433,6 +1989,9 @@
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "dpralekh@iiserb.ac.in",
+      "tagColor": "#747373",
+      "tagBorderColor": "#747373",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1441,6 +2000,9 @@
       "institute": "QMD Foundation",
       "hub": "IIT Delhi",
       "emailId": "pratyushrajbiswas@gmail.com",
+      "tagColor": "#747373",
+      "tagBorderColor": "#747373",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1449,6 +2011,9 @@
       "institute": "QMD Foundation",
       "hub": "IIT Delhi",
       "emailId": "sangeet.ph@sric.iitr.ac.in",
+      "tagColor": "#747373",
+      "tagBorderColor": "#747373",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1457,6 +2022,9 @@
       "institute": "QMD Foundation",
       "hub": "IIT Delhi",
       "emailId": "kumarpawan.ece@gmail.com",
+      "tagColor": "#747373",
+      "tagBorderColor": "#747373",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1465,6 +2033,9 @@
       "institute": "QMD Foundation",
       "hub": "IIT Delhi",
       "emailId": "pawan.ece@sric.iitr.ac.in",
+      "tagColor": "#747373",
+      "tagBorderColor": "#747373",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1473,6 +2044,9 @@
       "institute": "QMD Foundation",
       "hub": "IIT Delhi",
       "emailId": "mahanti.subham25@gmail.com",
+      "tagColor": "#747373",
+      "tagBorderColor": "#747373",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1481,6 +2055,9 @@
       "institute": "QMD Foundation",
       "hub": "IIT Delhi",
       "emailId": "amrita.majumder@iitb.ac.in",
+      "tagColor": "#747373",
+      "tagBorderColor": "#747373",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1489,6 +2066,9 @@
       "institute": "IISER Bhopal",
       "hub": "IIT Madras",
       "emailId": "ritikjain@iiserb.ac.in",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1497,6 +2077,9 @@
       "institute": "IISER Pune",
       "hub": "IIT Delhi",
       "emailId": "sourabh.jain@students.iiserpune.ac.in",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1505,6 +2088,9 @@
       "institute": "IISER Pune",
       "hub": "IIT Delhi",
       "emailId": "vinod.kumar@students.iiserpune.ac.in",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1513,6 +2099,9 @@
       "institute": "IISER Pune",
       "hub": "IIT Delhi",
       "emailId": "aparna.shinde@students.iiserpune.ac.in",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1521,6 +2110,9 @@
       "institute": "IISER Bhopal",
       "hub": "IIT Madras",
       "emailId": "sooryas@iiserb.ac.in",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1529,6 +2121,9 @@
       "institute": "IACS",
       "hub": "IIT Bombay",
       "emailId": "chayanpurkaitcareer@gmail.com",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1537,6 +2132,9 @@
       "institute": "IISER Pune",
       "hub": "IIT Delhi",
       "emailId": "dhairya.bhandari@students.iiserpune.ac.in",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1545,6 +2143,9 @@
       "institute": "IIT Ropar",
       "hub": "IIT Bombay",
       "emailId": "sunny.25phz0023@iitrpr.ac.in",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1553,6 +2154,9 @@
       "institute": "IIT Ropar",
       "hub": "IIT Bombay",
       "emailId": "raja.25phz0021@iitrpr.ac.in",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1561,6 +2165,9 @@
       "institute": "IIT Ropar",
       "hub": "IIT Bombay",
       "emailId": "staff.neethu@iitrpr.ac.in",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1569,6 +2176,9 @@
       "institute": "TIFR Mumbai",
       "hub": "IIT Bombay",
       "emailId": "hrdya.joshi@gmail.com",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1577,6 +2187,9 @@
       "institute": "TIFR",
       "hub": "IIT Bombay",
       "emailId": "rahul.mohanty@tifr.res.in",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1585,6 +2198,9 @@
       "institute": "TIFR",
       "hub": "IIT Bombay",
       "emailId": "satyabrata.baidya@tifr.res.in",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1593,6 +2209,9 @@
       "institute": "CDAC",
       "hub": "IISc Bangalore",
       "emailId": "vikasramaswamy@cdac.in",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1601,6 +2220,9 @@
       "institute": "SETS",
       "hub": "IISc Bangalore",
       "emailId": "foram@setsindia.net",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1609,6 +2231,9 @@
       "institute": "SETS",
       "hub": "IIT Madras",
       "emailId": "selvagangi@setsindia.net",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1617,6 +2242,9 @@
       "institute": "TCG Crest",
       "hub": "IIT Bombay",
       "emailId": "anupam.patra.137@tcgcrest.org",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1625,6 +2253,9 @@
       "institute": "TIFR Mumbai",
       "hub": "IIT Bombay",
       "emailId": "aishwarya1820@gmail.com",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1633,6 +2264,9 @@
       "institute": "IIT Patna",
       "hub": "IIT Madras",
       "emailId": "mithilesh_25ps76@iitp.ac.in",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1641,6 +2275,20 @@
       "institute": "IIT Ropar",
       "hub": "IIT Bombay",
       "emailId": "rakesh.25phz0003@iitrpr.ac.in",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Sajimon P C",
+      "tag": "Delegate",
+      "institute": "CDAC",
+      "hub": "IIT Madras",
+      "emailId": "pcsaji@cdac.in",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1649,6 +2297,9 @@
       "institute": "IISER Pune",
       "hub": "Q-Algorithm",
       "emailId": "santh@iiserpune.ac.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1657,6 +2308,9 @@
       "institute": "IIT Kanpur",
       "hub": "Q-Algorithm",
       "emailId": "ansharma@iitk.ac.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1665,6 +2319,9 @@
       "institute": "IIT Hyderabad",
       "hub": "Q-Algorithm",
       "emailId": "atanu@phy.iith.ac.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1673,6 +2330,9 @@
       "institute": "IIT Roorkee",
       "hub": "Q-Algorithm",
       "emailId": "arumugam@ph.iitr.ac.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1681,6 +2341,9 @@
       "institute": "TIFR Mumbai",
       "hub": "Q-Algorithm",
       "emailId": "nilmani@theory.tifr.res.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1689,6 +2352,9 @@
       "institute": "Birla Institute of Technology and Science (Bits)  Pilani,  Pilani Campus",
       "hub": "Q-Algorithm",
       "emailId": "ashutosh.bhatia@pilani.bits-pilani.ac.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1697,6 +2363,9 @@
       "institute": "IIT Bombay",
       "hub": "Q-Algorithm",
       "emailId": "rmaitra@chem.iitb.ac.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1705,6 +2374,20 @@
       "institute": "The Chatterjee Group Centres For Research and Education in Science and Technology (TCG CREST), West Bengal",
       "hub": "Q-Algorithm",
       "emailId": "srinivasaprasannaa@gmail.com",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Asvija B",
+      "tag": "Quantum Algorithms",
+      "institute": "CDAC",
+      "hub": "Q-Algorithm",
+      "emailId": "asvijab@cdac.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1713,6 +2396,9 @@
       "institute": "Vignan's Foundation for Science Technology and Research (Deemed to Be University), Guntur, Vadlamudi, Andhra Pradesh",
       "hub": "Teaching Lab",
       "emailId": "drkvm_sh@vignan.ac.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1721,6 +2407,9 @@
       "institute": "Gandhi Institute of Technology and Management, Gandhinagar, Visakhapatnam, Andhra Pradesh",
       "hub": "Teaching Lab",
       "emailId": "dean_cse@gitam.edu",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1729,6 +2418,9 @@
       "institute": "Delhi Technological University",
       "hub": "Teaching Lab",
       "emailId": "dr_rk_sinha@yahoo.com",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1737,6 +2429,9 @@
       "institute": "GMR Institute of Technology, Rajam, Srikakulam, Andhra Pradesh",
       "hub": "Teaching Lab",
       "emailId": "Dr.Girish.Jammigumpula@gmrgroup.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1745,6 +2440,9 @@
       "institute": "University College of Engineering Kakinada, East Godavari, Kakinada, Andhra Pradesh",
       "hub": "Teaching Lab",
       "emailId": "lsumalatha@jntucek.ac.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1753,6 +2451,9 @@
       "institute": "University College of Engineering Kakinada, East Godavari, Kakinada, Andhra Pradesh",
       "hub": "Teaching Lab",
       "emailId": "lsumalatha@jntucek.ac.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1761,6 +2462,9 @@
       "institute": "IIT Gandhinagar",
       "hub": "Teaching Lab",
       "emailId": "anagh.bhaumik@iitgn.ac.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1769,6 +2473,9 @@
       "institute": "Indian Institute of Information Technology, Dharwad",
       "hub": "Teaching Lab",
       "emailId": "aswath@iiitdwd.ac.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1777,6 +2484,9 @@
       "institute": "Guru Nanak Dev University",
       "hub": "Teaching Lab",
       "emailId": "aman.phy@gndu.ac.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1785,6 +2495,9 @@
       "institute": "Rajeev Gandhi Memorial College of Engineering and Technology",
       "hub": "Teaching Lab",
       "emailId": "kvkphd84@gmail.com",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1793,6 +2506,9 @@
       "institute": "Rajiv Gandhi University of Knowledge Technologies",
       "hub": "Teaching Lab",
       "emailId": "schiranjeevi@rguktn.ac.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1801,6 +2517,9 @@
       "institute": "Indian Institute of Information Technology Bihar",
       "hub": "Teaching Lab",
       "emailId": "dksinha.ece@iiitbh.ac.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1809,6 +2528,9 @@
       "institute": "Punjab Engineering College",
       "hub": "Teaching Lab",
       "emailId": "sanjeev@pec.edu.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1817,6 +2539,9 @@
       "institute": "Shri G.S. Institute of Tech. and Science, Indore, Madhya Pradesh",
       "hub": "Teaching Lab",
       "emailId": "jtandrews@sgsits.ac.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1825,6 +2550,9 @@
       "institute": "",
       "hub": "Teaching Lab",
       "emailId": "brsankapal@phy.vnit.ac.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1833,6 +2561,9 @@
       "institute": "National Institute of Technology Rourkela",
       "hub": "Teaching Lab",
       "emailId": "karjp@nitrkl.ac.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1841,6 +2572,9 @@
       "institute": "IIT Jodhpur",
       "hub": "Teaching Lab",
       "emailId": "vnara@iitj.ac.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1849,6 +2583,9 @@
       "institute": "Rajalakshmi Institute of Technology",
       "hub": "Teaching Lab",
       "emailId": "sasikumar.s@ritchennai.edu.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1857,6 +2594,9 @@
       "institute": "SRM Institute of Science and Technology",
       "hub": "Teaching Lab",
       "emailId": "vc@srmist.edu.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1865,6 +2605,9 @@
       "institute": "IIT BHU",
       "hub": "Teaching Lab",
       "emailId": "atul.ece@iitbhu.ac.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1873,6 +2616,9 @@
       "institute": "MCKV Institute of Engineering",
       "hub": "Teaching Lab",
       "emailId": "soma.bandyopadhyay@mckvie.edu.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1881,6 +2627,9 @@
       "institute": "QuNu Labs Pvt Ltd",
       "hub": "I-Hub QTF",
       "emailId": "sunil@qnulabs.com",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1889,6 +2638,9 @@
       "institute": "QuNu Labs Pvt Ltd",
       "hub": "I-Hub QTF",
       "emailId": "dilip@qunulabs.com",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1897,6 +2649,9 @@
       "institute": "QpiAI Pvt Ltd",
       "hub": "I-Hub QTF",
       "emailId": "nagendra.nagaraja@qpiai.tech",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1905,6 +2660,9 @@
       "institute": "Sense-XT Innovations Pvt Ltd",
       "hub": "IIT Bombay",
       "emailId": "sourav.sarkar@jadavpuruniversity.in",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1913,6 +2671,9 @@
       "institute": "GDQLabs Pvt Ltd",
       "hub": "IIT Bombay",
       "emailId": "pranab@gdqlabs.com",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1921,6 +2682,9 @@
       "institute": "Orvis Semi Pvt Ltd",
       "hub": "IIT Bombay",
       "emailId": "swavagyashree@orvissemi.com",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -1929,230 +2693,504 @@
       "institute": "Quantum Biosciences Pvt Ltd",
       "hub": "IIT Bombay",
       "emailId": "subu@quantumbiosciences.ai",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Sugam Kumar",
+      "tag": "Startup",
+      "institute": "Quteelectronics Pvt Ltd",
+      "hub": "IIT Delhi",
+      "emailId": "sugamkumar@gmail.com",
+      "tagColor": "#FF0000",
+      "tagBorderColor": "#FF0000",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Hardik Joshi",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Sanjana Nene",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Snehal Gosavi",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Srishti Girish",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Elton Noronha",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Ruchi Singh",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Puja Chakraborty",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Rachana Shiriskar",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Aditi Yadav",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Jeenal Kalal",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Santosh Shedge",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Deepawali Khade",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Swapneel Kochikar",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Aakash Gala",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Rutuja Chalke",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Aditya",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Wajid Khan",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Heena Pathan",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Pavithra Nair",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Nitin Jaisinghani",
+      "tag": "Qmet Tech",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Shishir Dasika",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Prasobh Padmanabhan",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Vinayak Rane",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Abhijeet Ghodgaonkar",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Kali Pada Bhukta",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Jay Gharat",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Balachandar Settu",
-      "tag": "Organizer",
+      "tag": "Qmet Tech",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Puja Kudupudi",
+      "tag": "Qmet Tech",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "tagColor": "#0070C0",
+      "tagBorderColor": "#0070C0",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Varsha Ingale",
-      "tag": "Organizer",
+      "tag": "IIT Bombay",
       "institute": "Qmet Tech Foundation",
       "hub": "IIT Bombay",
       "emailId": "",
+      "tagColor": "#4472C4",
+      "tagBorderColor": "#4472C4",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
       "name": "Dr. Maheshwar Mangat",
-      "tag": "Delegate",
+      "tag": "IIT Bombay",
       "institute": "IIT Bombay",
       "hub": "IIT Bombay",
       "emailId": "maheshwar.mangat@iitb.ac.in <maheshwar.mangat@iitb.ac.in>",
+      "tagColor": "#4472C4",
+      "tagBorderColor": "#4472C4",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Himanshu Kumar",
+      "tag": "IIT Bombay",
+      "institute": "IIT Bombay",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "tagColor": "#4472C4",
+      "tagBorderColor": "#4472C4",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Jyotiprakash Parhi",
+      "tag": "IIT Bombay",
+      "institute": "IIT Bombay",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "tagColor": "#4472C4",
+      "tagBorderColor": "#4472C4",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Swapnil R Bait",
+      "tag": "IIT Bombay",
+      "institute": "IIT Bombay",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "tagColor": "#4472C4",
+      "tagBorderColor": "#4472C4",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Sritama Saha",
+      "tag": "IIT Bombay",
+      "institute": "IIT Bombay",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "tagColor": "#4472C4",
+      "tagBorderColor": "#4472C4",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Ritaban Samanta",
+      "tag": "IIT Bombay",
+      "institute": "IIT Bombay",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "tagColor": "#4472C4",
+      "tagBorderColor": "#4472C4",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Shraddha Atakar",
+      "tag": "IIT Bombay",
+      "institute": "IIT Bombay",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "tagColor": "#4472C4",
+      "tagBorderColor": "#4472C4",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Sanika Joshi",
+      "tag": "IIT Bombay",
+      "institute": "IIT Bombay",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "tagColor": "#4472C4",
+      "tagBorderColor": "#4472C4",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Anuj Bathla",
+      "tag": "IIT Bombay",
+      "institute": "IIT Bombay",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "tagColor": "#4472C4",
+      "tagBorderColor": "#4472C4",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Nidhi",
+      "tag": "IIT Bombay",
+      "institute": "IIT Bombay",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "tagColor": "#4472C4",
+      "tagBorderColor": "#4472C4",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Somak Basistha",
+      "tag": "IIT Bombay",
+      "institute": "IIT Bombay",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "tagColor": "#4472C4",
+      "tagBorderColor": "#4472C4",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Kevin Jose",
+      "tag": "IIT Bombay",
+      "institute": "IIT Bombay",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "tagColor": "#4472C4",
+      "tagBorderColor": "#4472C4",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Prajna Mahakur",
+      "tag": "IIT Bombay",
+      "institute": "IIT Bombay",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "tagColor": "#4472C4",
+      "tagBorderColor": "#4472C4",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Manali Verma",
+      "tag": "IIT Bombay",
+      "institute": "IIT Bombay",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "tagColor": "#4472C4",
+      "tagBorderColor": "#4472C4",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Annirudh K V",
+      "tag": "IIT Bombay",
+      "institute": "IIT Bombay",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "tagColor": "#4472C4",
+      "tagBorderColor": "#4472C4",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2161,6 +3199,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2169,6 +3210,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2177,6 +3221,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2185,6 +3232,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2193,6 +3243,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2201,6 +3254,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2209,6 +3265,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2217,6 +3276,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2225,6 +3287,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2233,6 +3298,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2241,6 +3309,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2249,6 +3320,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2257,6 +3331,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2265,6 +3342,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2273,6 +3353,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2281,6 +3364,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2289,6 +3375,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2297,6 +3386,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2305,6 +3397,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2313,6 +3408,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2321,6 +3419,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2329,6 +3430,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2337,6 +3441,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2345,6 +3452,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2353,6 +3463,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2361,6 +3474,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2369,6 +3485,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2377,6 +3496,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2385,6 +3507,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2393,6 +3518,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2401,6 +3529,9 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
@@ -2409,6 +3540,42 @@
       "institute": "",
       "hub": "",
       "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. N Rajesh Pillai",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Ravi Bathe",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
+      "source": "excel"
+    },
+    {
+      "name": "Naresh Kumar Kokkonda",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "tagColor": "#773F19",
+      "tagBorderColor": "#773F19",
+      "tagTextColor": "#FFFFFF",
       "source": "excel"
     },
     {
