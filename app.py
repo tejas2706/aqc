@@ -3,7 +3,14 @@ from html import escape
 
 import streamlit as st
 
-from aqc_data import DATA_PATH, add_attendee, load_or_create_dataset, search_attendees
+from aqc_data import (
+    DATA_PATH,
+    WORKBOOK_PATH,
+    add_attendee,
+    load_or_create_dataset,
+    search_attendees,
+    workbook_bytes,
+)
 
 
 st.set_page_config(page_title="AQC Attendee Tag Finder", page_icon="🏷️", layout="centered")
@@ -350,7 +357,7 @@ with sync_tab:
 with add_tab:
     st.markdown('<div class="section-title">Add attendee</div>', unsafe_allow_html=True)
     st.markdown(
-        '<div class="tab-copy">Add a new attendee to the local JSON list without modifying the Excel workbook.</div>',
+        '<div class="tab-copy">Add a new attendee locally, and optionally write the same record back into the Excel workbook.</div>',
         unsafe_allow_html=True,
     )
     toggle_label = "Hide add attendee form" if st.session_state.show_add_form else "Add attendee"
@@ -364,16 +371,39 @@ with add_tab:
             institute = st.text_input("Institute")
             hub = st.text_input("Hub")
             email = st.text_input("emailId")
+            update_excel = st.checkbox("Also update the Excel sheet", value=True)
             submitted = st.form_submit_button("Add to local list", use_container_width=True)
 
         if submitted:
             if not name.strip() or not tag.strip():
                 st.error("Name and Tag are required.")
             else:
-                attendee = add_attendee(name=name, tag=tag, institute=institute, hub=hub, email=email)
+                attendee = add_attendee(
+                    name=name,
+                    tag=tag,
+                    institute=institute,
+                    hub=hub,
+                    email=email,
+                    update_excel=update_excel,
+                )
                 st.session_state.dataset = refresh_dataset()
                 st.session_state.show_add_form = False
-                st.success(f"Added {attendee['name']} with tag {attendee['tag']} to {Path(DATA_PATH).name}.")
+                target_name = WORKBOOK_PATH.name if update_excel else Path(DATA_PATH).name
+                st.success(f"Added {attendee['name']} with tag {attendee['tag']} to {target_name}.")
+
+    st.markdown('<div class="section-title">Download sheet</div>', unsafe_allow_html=True)
+    st.markdown(
+        '<div class="tab-copy">Download the current Excel workbook after syncing or adding attendees.</div>',
+        unsafe_allow_html=True,
+    )
+    st.download_button(
+        "Download Excel workbook",
+        data=workbook_bytes(),
+        file_name=WORKBOOK_PATH.name,
+        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        use_container_width=True,
+        key="download_excel_workbook",
+    )
 
 
 # with st.expander("Dataset details"):

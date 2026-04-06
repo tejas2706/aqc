@@ -16,6 +16,10 @@ XML_NS = {
     "main": "http://schemas.openxmlformats.org/spreadsheetml/2006/main",
     "rel": "http://schemas.openxmlformats.org/officeDocument/2006/relationships",
 }
+MAIN_NS = XML_NS["main"]
+REL_NS = XML_NS["rel"]
+ET.register_namespace("", MAIN_NS)
+ET.register_namespace("r", REL_NS)
 
 
 @dataclass
@@ -65,6 +69,159 @@ def _resolve_sheet_path(archive: zipfile.ZipFile, sheet_name: str) -> str:
             return "xl/" + rel_map[rel_id]
 
     raise ValueError(f"Sheet '{sheet_name}' not found in workbook")
+
+
+def _resolve_sheet_archive_path(sheet_target: str) -> str:
+    return sheet_target[3:] if sheet_target.startswith("xl/") else sheet_target
+
+
+def _read_shared_strings_with_tree(
+    archive: zipfile.ZipFile,
+) -> tuple[ET.Element, list[str], dict[str, int]]:
+    tree = ET.fromstring(archive.read("xl/sharedStrings.xml"))
+    values: list[str] = []
+    lookup: dict[str, int] = {}
+    for index, item in enumerate(tree.findall("main:si", XML_NS)):
+        value = "".join(text.text or "" for text in item.iterfind(".//main:t", XML_NS))
+        values.append(value)
+        lookup.setdefault(value, index)
+    return tree, values, lookup
+
+
+def _last_row_number(sheet_root: ET.Element) -> int:
+    rows = sheet_root.find("main:sheetData", XML_NS)
+    if rows is None:
+        return 2
+    return max((int(row.attrib["r"]) for row in rows.findall("main:row", XML_NS)), default=2)
+
+
+def _next_shared_string_index(
+    shared_root: ET.Element,
+    shared_values: list[str],
+    shared_lookup: dict[str, int],
+    value: str,
+) -> int:
+    if value in shared_lookup:
+        return shared_lookup[value]
+
+    item = ET.Element(f"{{{MAIN_NS}}}si")
+    text_node = ET.SubElement(item, f"{{{MAIN_NS}}}t")
+    text_node.text = value
+    shared_root.append(item)
+
+    index = len(shared_values)
+    shared_values.append(value)
+    shared_lookup[value] = index
+    shared_root.attrib["uniqueCount"] = str(len(shared_values))
+    return index
+
+
+def _update_shared_string_count(shared_root: ET.Element, increment: int) -> None:
+    current = int(shared_root.attrib.get("count", "0"))
+    shared_root.attrib["count"] = str(current + increment)
+
+
+def append_attendee_to_workbook(attendee: Attendee) -> None:
+    with zipfile.ZipFile(WORKBOOK_PATH, "r") as source_archive:
+        workbook = ET.fromstring(source_archive.read("xl/workbook.xml"))
+        rels = ET.fromstring(source_archive.read("xl/_rels/workbook.xml.rels"))
+        rel_map = {rel.attrib["Id"]: rel.attrib["Target"] for rel in rels}
+
+        sheet_target = None
+        for sheet in workbook.find("main:sheets", XML_NS):
+            if sheet.attrib["name"] == SHEET_NAME:
+                rel_id = sheet.attrib[
+                    "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id"
+                ]
+                sheet_target = rel_map[rel_id]
+                break
+
+        if sheet_target is None:
+            raise ValueError(f"Sheet '{SHEET_NAME}' not found in workbook")
+
+        sheet_archive_path = _resolve_sheet_archive_path(sheet_target)
+        sheet_root = ET.fromstring(source_archive.read(f"xl/{sheet_archive_path}"))
+        shared_root, shared_values, shared_lookup = _read_shared_strings_with_tree(source_archive)
+
+        sheet_data = sheet_root.find("main:sheetData", XML_NS)
+        existing_rows = sheet_data.findall("main:row", XML_NS)
+        template_row = existing_rows[-1]
+        template_cells = {
+            cell.attrib["r"][0]: cell for cell in template_row.findall("main:c", XML_NS)
+        }
+
+        row_number = _last_row_number(sheet_root) + 1
+        new_row = ET.Element(
+            f"{{{MAIN_NS}}}row",
+            {
+                "r": str(row_number),
+                "spans": template_row.attrib.get("spans", "2:7"),
+                "ht": template_row.attrib.get("ht", "13"),
+            },
+        )
+        if "customHeight" in template_row.attrib:
+            new_row.attrib["customHeight"] = template_row.attrib["customHeight"]
+
+        serial_cell = ET.Element(
+            f"{{{MAIN_NS}}}c",
+            {"r": f"B{row_number}", "s": template_cells["B"].attrib.get("s", "189")},
+        )
+        serial_value = ET.SubElement(serial_cell, f"{{{MAIN_NS}}}v")
+        serial_value.text = str(row_number - 2)
+        new_row.append(serial_cell)
+
+        column_values = {
+            "C": attendee.name,
+            "D": attendee.institute,
+            "E": attendee.hub,
+            "F": attendee.emailId,
+            "G": attendee.tag,
+        }
+        for column, value in column_values.items():
+            shared_index = _next_shared_string_index(
+                shared_root, shared_values, shared_lookup, value
+            )
+            cell = ET.Element(
+                f"{{{MAIN_NS}}}c",
+                {
+                    "r": f"{column}{row_number}",
+                    "s": template_cells[column].attrib.get("s", "189"),
+                    "t": "s",
+                },
+            )
+            cell_value = ET.SubElement(cell, f"{{{MAIN_NS}}}v")
+            cell_value.text = str(shared_index)
+            new_row.append(cell)
+
+        sheet_data.append(new_row)
+
+        dimension = sheet_root.find("main:dimension", XML_NS)
+        if dimension is not None:
+            start_ref, _sep, end_ref = dimension.attrib.get("ref", "B2:G2").partition(":")
+            end_column = "".join(ch for ch in end_ref if ch.isalpha()) or "G"
+            dimension.attrib["ref"] = f"{start_ref}:{end_column}{row_number}"
+
+        _update_shared_string_count(shared_root, len(column_values))
+
+        temp_path = WORKBOOK_PATH.with_suffix(".tmp.xlsx")
+        updated_files = {
+            f"xl/{sheet_archive_path}": ET.tostring(
+                sheet_root, encoding="utf-8", xml_declaration=True
+            ),
+            "xl/sharedStrings.xml": ET.tostring(
+                shared_root, encoding="utf-8", xml_declaration=True
+            ),
+        }
+        with zipfile.ZipFile(temp_path, "w") as target_archive:
+            for item in source_archive.infolist():
+                data = updated_files.get(item.filename, source_archive.read(item.filename))
+                target_archive.writestr(item, data)
+
+    temp_path.replace(WORKBOOK_PATH)
+
+
+def workbook_bytes() -> bytes:
+    return WORKBOOK_PATH.read_bytes()
 
 
 def parse_attendees_from_workbook() -> list[dict[str, Any]]:
@@ -166,21 +323,27 @@ def add_attendee(
     institute: str = "",
     hub: str = "",
     email: str = "",
+    update_excel: bool = False,
 ) -> dict[str, Any]:
-    dataset = load_or_create_dataset()
-    attendee = asdict(
-        Attendee(
-            name=name.strip(),
-            tag=tag.strip(),
-            institute=institute.strip(),
-            hub=hub.strip(),
-            emailId=email.strip(),
-            source="manual",
-        )
+    attendee_model = Attendee(
+        name=name.strip(),
+        tag=tag.strip(),
+        institute=institute.strip(),
+        hub=hub.strip(),
+        emailId=email.strip(),
+        source="excel" if update_excel else "manual",
     )
-    dataset.setdefault("added_records", []).append(attendee)
-    dataset["records"] = parse_attendees_from_workbook() + dataset["added_records"]
-    dataset["generated_at"] = datetime.now(timezone.utc).isoformat()
+    attendee = asdict(attendee_model)
+
+    if update_excel:
+        append_attendee_to_workbook(attendee_model)
+        dataset = build_dataset()
+    else:
+        dataset = load_or_create_dataset()
+        dataset.setdefault("added_records", []).append(attendee)
+        dataset["records"] = parse_attendees_from_workbook() + dataset["added_records"]
+        dataset["generated_at"] = datetime.now(timezone.utc).isoformat()
+
     save_dataset(dataset)
     return attendee
 
