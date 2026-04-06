@@ -17,7 +17,7 @@ st.markdown(
             linear-gradient(180deg, #f8faf7 0%, #eef2f6 100%);
     }
     .block-container {
-        padding-top: 2rem;
+        padding-top: 3rem;
         padding-bottom: 2rem;
         max-width: 980px;
     }
