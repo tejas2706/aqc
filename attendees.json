@@ -1,0 +1,2433 @@
+{
+  "generated_at": "2026-04-06T05:45:20.943758+00:00",
+  "source_file": "AQC Planning.xlsx",
+  "sheet_name": "Attendee List",
+  "records": [
+    {
+      "name": "Dr. Akshay Naik",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Bangalore",
+      "hub": "IIT Bombay",
+      "emailId": "anaik@iisc.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Akshay Singh",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Bangalore",
+      "hub": "IISc Bangalore",
+      "emailId": "aksy@iisc.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Amitangshu Pal",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Kanpur",
+      "hub": "IIT Bombay",
+      "emailId": "amitangshu@cse.iitk.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Anil Shaji",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Education and Research Thiruvananthapuram",
+      "hub": "IISc Bangalore",
+      "emailId": "shaji@iisertvm.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Anirban Mitra",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Roorkee",
+      "hub": "IIT Delhi",
+      "emailId": "anirban.mitra@ph.iitr.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Ankur Raina",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Education and Research Bhopal",
+      "hub": "IIT Madras",
+      "emailId": "ankur@iiserb.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Anshul Jaiswal",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Roorkee",
+      "hub": "IIT Madras",
+      "emailId": "anshul.jaiswal@ece.iitr.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Anshuman Kumar",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Bombay",
+      "hub": "IIT Delhi",
+      "emailId": "anshuman.kumar@iitb.ac. in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Arijit Sharma",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Tirupati",
+      "hub": "IIT Madras",
+      "emailId": "arijit@iittp.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Ashok K Mohapatra",
+      "tag": "PI",
+      "institute": "National Institue of Science Education and Research Bhubaneswar",
+      "hub": "IISc Bangalore",
+      "emailId": "a.mohapatra@niser.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Awanish Pandey",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Delhi",
+      "hub": "IISc Bangalore",
+      "emailId": "awanish@ee.iitd.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Baladitya Suri",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Bangalore",
+      "hub": "IISc Bangalore",
+      "emailId": "surib@iisc.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Bhaskar Kanseri",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Delhi",
+      "hub": "IIT Madras",
+      "emailId": "bkanseri@physics.iitd.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Bimalendu Deb",
+      "tag": "PI",
+      "institute": "Indian Association for the Cultivation of Science",
+      "hub": "IIT Bombay",
+      "emailId": "msbd@iacs.res.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. D. S. Rawal",
+      "tag": "PI",
+      "institute": "Solid State Physics laboratory (SSPL), Defense Research Development Organization (DRDO)",
+      "hub": "IIT Delhi",
+      "emailId": "ds-rawal.sspl@gov.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Debapriya Basu Roy",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Kanpur",
+      "hub": "IIT Madras",
+      "emailId": "dbroy@cse.iitk.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Debdeep Mukhopadhyay",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Kharagpur",
+      "hub": "IIT Madras",
+      "emailId": "debdeep@cse.iitkgp.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Dhiman Saha",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Bhilai",
+      "hub": "IIT Madras",
+      "emailId": "dhiman@iitbhilai.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. G Rajalakshmi",
+      "tag": "PI",
+      "institute": "Tata Institute of Fundamental Research Hyderabad",
+      "hub": "IIT Bombay",
+      "emailId": "raji@tifrh.res.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Girish Vasant Kulkarni",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Ropar",
+      "hub": "IIT Bombay",
+      "emailId": "girishk@iitrpr.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Kanhaiya Pandey",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Guwahati",
+      "hub": "IISc Bangalore",
+      "emailId": "kanhaiyapandey@iitg.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Kasturi Saha",
+      "tag": "Organizer",
+      "institute": "Indian Institute of Technology Bombay",
+      "hub": "IIT Bombay",
+      "emailId": "pic@qmettech.com",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Madhu Thalakulam",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Education and Research Thiruvananthapuram",
+      "hub": "IISc Bangalore",
+      "emailId": "madhu@iisertvm.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Mrigank Sharad",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Kharagpur",
+      "hub": "IIT Delhi",
+      "emailId": "mrigank@see.iitk.gp.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Natarajan Venkatachalam",
+      "tag": "PI",
+      "institute": "Society for Electronic Transactions and Security (SETS)",
+      "hub": "IISc Bangalore",
+      "emailId": "natarajan@setsindia.net",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Neel Kanth Kundu",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Delhi",
+      "hub": "IIT Madras",
+      "emailId": "neelkanth@iitd.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Parvendra Kumar",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Delhi",
+      "hub": "IIT Madras",
+      "emailId": "parvendra@opc.iitd.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Phani Kumar Peddibhotla",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Education and Research Bhopal",
+      "hub": "IIT Bombay",
+      "emailId": "phani@iiserb.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Prabha Mandayam",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Madras",
+      "hub": "IISc Bangalore",
+      "emailId": "prabhamd@physics.iitm.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Prasana Kumar Sahoo",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Kharagpur",
+      "hub": "IIT Delhi",
+      "emailId": "prasana@matsc.iitkgp.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Prosenjit Sen",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Bangalore",
+      "hub": "IIT Bombay",
+      "emailId": "prosenjits@iisc.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Raghavan K Easwaran",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Patna",
+      "hub": "IIT Madras",
+      "emailId": "raghavanke@iitp.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Rahul Singh",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Bombay",
+      "hub": "IISc Bangalore | IIT Bombay",
+      "emailId": "rahuls_ee@iitb.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Rajamani Vijayaraghavan",
+      "tag": "PI",
+      "institute": "Tata Institute of Fundamental Research Mumbai",
+      "hub": "IISc Bangalore",
+      "emailId": "rvijay26@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Rajesh Kumar",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Roorkee",
+      "hub": "IIT Delhi",
+      "emailId": "rajesh.kumar@bt.iitr.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Rakesh Kumar Palani",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Delhi",
+      "hub": "IISc Bangalore",
+      "emailId": "palanirakesh@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Rejish Nath Gopinathan Rejani",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Education and Research Pune",
+      "hub": "IISc Bangalore",
+      "emailId": "rejish@iiserpune.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Rituraj",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Kanpur",
+      "hub": "IIT Bombay",
+      "emailId": "rituraj@iitk.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Rohit Chaurasiya",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Jammu",
+      "hub": "IIT Madras",
+      "emailId": "rohit.chaurasiya@iitjammu.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Sai Vinjanampathy",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Bombay",
+      "hub": "IISc Bangalore",
+      "emailId": "sai@quantumlah.org",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Saikat Ghosh",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Kanpur",
+      "hub": "IIT Bombay",
+      "emailId": "gsaikat@iitk.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Sandeep Kumar Goyal",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Education and Research Mohali",
+      "hub": "IIT Madras",
+      "emailId": "skgoyal@iisermohali.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Sanjib Dey",
+      "tag": "PI",
+      "institute": "Birla Institute of Technology and Science Pilani, Goa",
+      "hub": "IIT Bombay",
+      "emailId": "sanjibd@goa.bits-pilani.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Santanu Talukder",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Education and Research Bhopal",
+      "hub": "IIT Bombay",
+      "emailId": "santanu@iiserb.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Saptarishi Chaudhuri",
+      "tag": "PI",
+      "institute": "Raman Research Institute",
+      "hub": "IISc Bangalore",
+      "emailId": "srishic@rri.res.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Sarani Bhattacharya",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Kharagpur",
+      "hub": "IIT Madras",
+      "emailId": "sarani@cse.iitkgp.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Saravana Kumar M",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Roorkee",
+      "hub": "IISc Bangalore",
+      "emailId": "saravana.kumar@ece.iitr.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Senthil Kumar M",
+      "tag": "PI",
+      "institute": "Space Application Centre, ISRO",
+      "hub": "IIT Madras",
+      "emailId": "senthil@sac.isro.gov.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Siddharth Tallur",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Bombay",
+      "hub": "IIT Bombay",
+      "emailId": "stallur@ee.iitb.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Sourav Dutta",
+      "tag": "PI",
+      "institute": "Tata Institute of Fundamental Research Mumbai",
+      "hub": "IIT Bombay",
+      "emailId": "sourav.dutta.mr@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Sudipta Dubey",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Kanpur",
+      "hub": "IIT Delhi",
+      "emailId": "sudiptad@iitk.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Tanmoy Basu",
+      "tag": "PI",
+      "institute": "TCG Centres for Research and Education in Science and Technology",
+      "hub": "IIT Bombay",
+      "emailId": "tanmoy.basu@tcgcrest.org",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Uditendu Mukhopadhyay",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Bombay",
+      "hub": "IISc Bangalore",
+      "emailId": "uditendu.mukhopadhyay@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Utpal Roy",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Patna",
+      "hub": "IISc Bangalore",
+      "emailId": "uroy@iitp.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Veeresh Vidyadhar Deshpande",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Bombay",
+      "hub": "IISc Bangalore | IIT Bombay",
+      "emailId": "veeresh@iitb.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Vemuru Subrahmanyam",
+      "tag": "PI",
+      "institute": "University of Hyderabad",
+      "hub": "IIT Bombay",
+      "emailId": "vmanisp@uohyd.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Venkata Jayasurya Yallapragada",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Kanpur",
+      "hub": "IIT Bombay",
+      "emailId": "jayasurya@iitk.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Vibhor Singh",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Bangalore",
+      "hub": "IISc Bangalore",
+      "emailId": "v.singh@iisc.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Vidya Praveen Bhallamudi",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Madras",
+      "hub": "IIT Bombay",
+      "emailId": "praveen.bhallamudi@iitm.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Vishvendra Singh Poonia",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Roorkee",
+      "hub": "IISc Bangalore",
+      "emailId": "vishvendra@ece.iitr.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Vishwa Pal",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Ropar",
+      "hub": "IIT Bombay",
+      "emailId": "vishwa.pal@iitrpr.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Mr. Deepak Gaur",
+      "tag": "PI",
+      "institute": "Centre for Development of Telematics",
+      "hub": "IIT Madras",
+      "emailId": "dgaur@cdot.in",
+      "source": "excel"
+    },
+    {
+      "name": "Mr. Prashant Chugh",
+      "tag": "PI",
+      "institute": "Centre for Development of Telematics",
+      "hub": "IIT Madras",
+      "emailId": "prashant@cdot.in",
+      "source": "excel"
+    },
+    {
+      "name": "Mr. S Henry Sukumar",
+      "tag": "PI",
+      "institute": "Centre for Development of Advanced Computing, Bangalore",
+      "hub": "IISc Bangalore",
+      "emailId": "henrys@cdac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Mr. Vaibhav Pratap Singh",
+      "tag": "PI",
+      "institute": "Centre for Development of Advanced Computing, Bangalore",
+      "hub": "IISc Bangalore",
+      "emailId": "svaibhav@cdac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Abhisek Dixit",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Delhi",
+      "hub": "IISc Bangalore",
+      "emailId": "abhisek.dixit@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Ajay Wasan",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Roorkee",
+      "hub": "IISc Bangalore",
+      "emailId": "awasan@ph.iitr.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Ambarish Ghosh",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Bangalore",
+      "hub": "IIT Bombay",
+      "emailId": "ambarish@iisc.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Anand Kumar Jha",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Kanpur",
+      "hub": "IIT Bombay",
+      "emailId": "akjha@iitk.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Anil Prabhakar",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Madras",
+      "hub": "IIT Madras",
+      "emailId": "anil@ee.iitm.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Anirban Pathak",
+      "tag": "PI",
+      "institute": "Jaypee Institute of Information Technology",
+      "hub": "IISc Bangalore",
+      "emailId": "anirban.pathak@jiit.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Ankesh Jain",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Delhi",
+      "hub": "IISc Bangalore",
+      "emailId": "ankesh@ee.iitd.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Apoorva Dayaram Patel",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Bangalore",
+      "hub": "IISc Bangalore",
+      "emailId": "adpatel@iisc.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Ashish Arora",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Education and Research Pune",
+      "hub": "IIT Delhi",
+      "emailId": "ashish.arora@iiserpune.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Avinash Lahgere",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Kanpur",
+      "hub": "IISc Bangalore",
+      "emailId": "alahgere@iitk.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Chandrashekhar C M",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Bangalore",
+      "hub": "IISc Bangalore",
+      "emailId": "chandracm@iisc.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Chetan Singh Thakur",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Bangalore",
+      "hub": "IISc Bangalore",
+      "emailId": "csthakur@iisc.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Darshak Bhatt",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Roorkee",
+      "hub": "IISc Bangalore",
+      "emailId": "darshak.bhatt@ece.iitr.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Devarshi Mrinal Das",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Ropar",
+      "hub": "IISc Bangalore",
+      "emailId": "devarshi.das@iitrpr.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Dibyajyoti Ghosh",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Delhi",
+      "hub": "IIT Delhi",
+      "emailId": "dibyajyoti@mse.iitd.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Gopalan Rajaraman",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Bombay",
+      "hub": "IIT Delhi",
+      "emailId": "rajaraman@chem.iitb.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Jaydeep Kumar Basu",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Bangalore",
+      "hub": "IISc Bangalore",
+      "emailId": "basu@iisc.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Karun Rawat",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Roorkee",
+      "hub": "IIT Delhi",
+      "emailId": "karun.rawat@ece.iitr.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Kausik Majumdar",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Bangalore",
+      "hub": "IISc Bangalore",
+      "emailId": "kausikm@iisc.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Kedar Khare",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Delhi",
+      "hub": "IIT Bombay",
+      "emailId": "kedark@opc.iitd.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Kolin Paul",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Delhi",
+      "hub": "IISc Bangalore",
+      "emailId": "kolin.paul@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Krishna B Balasubramanian",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Delhi",
+      "hub": "IIT Delhi",
+      "emailId": "bkrishna@mse.iitd.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. M S Ramachandra Rao",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Madras",
+      "hub": "IIT Bombay",
+      "emailId": "msrrao@iitm.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Maniraj Mahalingam",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Bombay",
+      "hub": "IIT Delhi",
+      "emailId": "maniraj@iitb.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Mukesh Kumar",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Indore",
+      "hub": "IISc Bangalore",
+      "emailId": "mukesh.kr@iiti.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Neeraj Goel",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Ropar",
+      "hub": "IISc Bangalore",
+      "emailId": "neeraj@iitrpr.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Pratap Raychaudhuri",
+      "tag": "PI",
+      "institute": "Tata Institute of Fundamental Research Mumbai",
+      "hub": "IIT Bombay",
+      "emailId": "pratap.raychaudhuri2020@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Praveen Kumar",
+      "tag": "PI",
+      "institute": "Indian Association for the Cultivation of Science",
+      "hub": "IIT Delhi",
+      "emailId": "praveen.kumar@iacs.res.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Rajan Jha",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Bhubaneswar",
+      "hub": "IIT Delhi",
+      "emailId": "rjha@iitbbs.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Rajendra Singh",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Delhi",
+      "hub": "IIT Delhi",
+      "emailId": "Rajendra.Singh@physics.iitd.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Ravi Pant",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Education and Research Thiruvananthapuram",
+      "hub": "IISc Bangalore",
+      "emailId": "rpant@iisertvm.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Ravikiran Yeleswarapu",
+      "tag": "PI",
+      "institute": "Birla Institute of Technology and Science Pilani, Hyderabad Campus",
+      "hub": "IISc Bangalore",
+      "emailId": "ravikiran.y@hyderabad.bits-pilani.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Samaresh Das",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Delhi",
+      "hub": "IISc Bangalore",
+      "emailId": "samaresh.das@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Santanu Manna",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Delhi",
+      "hub": "IIT Delhi",
+      "emailId": "mannasan@ee.iitd.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Saurabh Lodha",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Bombay",
+      "hub": "IIT Delhi",
+      "emailId": "slodha@ee.iitb.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Shailendra K Varshney",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Kharagpur",
+      "hub": "IIT Delhi",
+      "emailId": "skvarshney@ece.iitkgp.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Shankar Kumar Selvaraja",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Bangalore",
+      "hub": "IISc Bangalore",
+      "emailId": "shankarks@iisc.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Swaroop Ganguly",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Bombay",
+      "hub": "IIT Delhi",
+      "emailId": "sganguly@ee.iitb.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Umakant Damodar Rapol",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Education and Research Pune",
+      "hub": "IISc Bangalore",
+      "emailId": "umakant.rapol@iiserpune.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Urbasi Sinha",
+      "tag": "PI",
+      "institute": "Raman Research Institute",
+      "hub": "IIT Madras",
+      "emailId": "usinha@rri.res.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Varun Raghunathan",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Bangalore",
+      "hub": "IIT Madras",
+      "emailId": "varunr@iisc.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Sarada Prasad Gochhayat",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Jammu",
+      "hub": "IIT Madras",
+      "emailId": "sarada.gochhayat@iitjammu.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Sunil Nair",
+      "tag": "PI",
+      "institute": "Indian Institute of Science Education and Research Pune",
+      "hub": "I-Hub QTF",
+      "emailId": "sunil@iiserpune.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Naresh Kumar Emani",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Hyderabad",
+      "hub": "IIT Madras",
+      "emailId": "naresh@ee.iith.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. M V Panduranga Rao",
+      "tag": "PI",
+      "institute": "Indian Institute of Technology Hyderabad",
+      "hub": "IIT Madras",
+      "emailId": "mvp@cse.iith.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Ravindra Barlingay",
+      "tag": "Hub",
+      "institute": "IITM CDOT Samgnya Foundation",
+      "hub": "IIT Madras",
+      "emailId": "ceo@samgnya.in",
+      "source": "excel"
+    },
+    {
+      "name": "Kiran Shesh",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "ceo@qmettech.com",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Venkateswaran PS",
+      "tag": "Hub",
+      "institute": "Foundation for QC Innovation",
+      "hub": "IISc Bangalore",
+      "emailId": "venkatps@qcinnovation.co.in",
+      "source": "excel"
+    },
+    {
+      "name": "Kunj Tandon",
+      "tag": "Hub",
+      "institute": "I-Hub Quantum Technology Foundation",
+      "hub": "I-Hub QTF",
+      "emailId": "kunjtandon@quantech.org.in",
+      "source": "excel"
+    },
+    {
+      "name": "Aditya SG Vyas",
+      "tag": "Hub",
+      "institute": "QMD Foundation",
+      "hub": "IIT Delhi",
+      "emailId": "ceo@qmdhub.co.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Tejas Naik",
+      "tag": "Hub",
+      "institute": "QMD Foundation",
+      "hub": "IIT Delhi",
+      "emailId": "tejasnaikr@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Vijay A Ramanujan",
+      "tag": "Hub",
+      "institute": "Foundation for QC Innovation",
+      "hub": "IISc Bangalore",
+      "emailId": "vijay@qcinnovation.co.in",
+      "source": "excel"
+    },
+    {
+      "name": "Ramya Raman",
+      "tag": "Hub",
+      "institute": "IITM CDOT Samgnya Foundation",
+      "hub": "IIT Madras",
+      "emailId": "ramya@samgnya.in",
+      "source": "excel"
+    },
+    {
+      "name": "Venkata Sudhakar Guduru",
+      "tag": "Hub",
+      "institute": "IITM CDOT Samgnya Foundation",
+      "hub": "IIT Madras",
+      "emailId": "sudhakar@samgnya.in",
+      "source": "excel"
+    },
+    {
+      "name": "Nahid Chaudhary",
+      "tag": "Hub",
+      "institute": "QMD Foundation",
+      "hub": "IIT Delhi",
+      "emailId": "technologymanager2@qmdhub.co.in",
+      "source": "excel"
+    },
+    {
+      "name": "Sourav Sarkar",
+      "tag": "Hub",
+      "institute": "QMD Foundation",
+      "hub": "IIT Delhi",
+      "emailId": "projectconsultant1@qmdhub.co.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Jagrati Dwivedi",
+      "tag": "Hub",
+      "institute": "QMD Foundation",
+      "hub": "IIT Delhi",
+      "emailId": "projectconsultant2@qmdhub.co.in",
+      "source": "excel"
+    },
+    {
+      "name": "James  Johnson",
+      "tag": "Hub",
+      "institute": "I-Hub Quantum Technology Foundation",
+      "hub": "I-Hub QTF",
+      "emailId": "james_j@quantech.org.in",
+      "source": "excel"
+    },
+    {
+      "name": "Rajan Kumar Singh",
+      "tag": "Hub",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "rajanks@iitk.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Gayathri Raman",
+      "tag": "Hub",
+      "institute": "QMD Foundation",
+      "hub": "IIT Delhi",
+      "emailId": "g3raman@iitb.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Maheshwar Mangat",
+      "tag": "Hub",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "maheshwar.mangat@iitb.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "RAMSHANKER",
+      "tag": "Hub",
+      "institute": "Foundation for QC Innovation",
+      "hub": "IISc Bangalore",
+      "emailId": "ramshanker@qcinnovation.co.in",
+      "source": "excel"
+    },
+    {
+      "name": "Pulak Ghoshal",
+      "tag": "Expo",
+      "institute": "Foundation for QC Innovation",
+      "hub": "IISc Bangalore",
+      "emailId": "eez248406@ee.iitd.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Deepesh Sharma",
+      "tag": "Expo",
+      "institute": "Foundation for QC Innovation",
+      "hub": "IISc Bangalore",
+      "emailId": "deepesh.sharma@ee.iitd.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Rajat Bharadwaj",
+      "tag": "Expo",
+      "institute": "Foundation for QC Innovation",
+      "hub": "IISc Bangalore",
+      "emailId": "rajat21@iisertvm.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Varsha Jangir",
+      "tag": "Expo",
+      "institute": "Foundation for QC Innovation",
+      "hub": "IISc Bangalore",
+      "emailId": "204120010@iitb.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Sujai Matta",
+      "tag": "Expo",
+      "institute": "Foundation for QC Innovation",
+      "hub": "IISc Bangalore",
+      "emailId": "sujaimatta@iisc.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Soumya Asokan",
+      "tag": "Expo",
+      "institute": "Foundation for QC Innovation",
+      "hub": "IISc Bangalore",
+      "emailId": "soumyaasokan@iisc.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Shantharam Kalipatnapu",
+      "tag": "Expo",
+      "institute": "Foundation for QC Innovation",
+      "hub": "IISc Bangalore",
+      "emailId": "shantharamk@iisc.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Venkata Pavan Kalyan Missula",
+      "tag": "Expo",
+      "institute": "Foundation for QC Innovation",
+      "hub": "IISc Bangalore",
+      "emailId": "pavkalyan100@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Vidur Raj",
+      "tag": "Expo",
+      "institute": "Quanastra Pvt Ltd",
+      "hub": "I-Hub QTF, IISER Pune",
+      "emailId": "vidur.raj@quanastra.com",
+      "source": "excel"
+    },
+    {
+      "name": "Anand Mohan",
+      "tag": "Expo",
+      "institute": "Quanastra Pvt Ltd",
+      "hub": "I-Hub QTF, IISER Pune",
+      "emailId": "s21027@students.iitmandi.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Vaishnavi Vaichal",
+      "tag": "Expo",
+      "institute": "SCI-COM SOFTWARE INDIA PRIVATE LIMITED",
+      "hub": "I-Hub QTF, IISER Pune",
+      "emailId": "vaishnavi.vaichal@scicomsoftware.com",
+      "source": "excel"
+    },
+    {
+      "name": "Suhas Kulkarni",
+      "tag": "Expo",
+      "institute": "SCI-COM SOFTWARE INDIA PRIVATE LIMITED",
+      "hub": "I-Hub QTF, IISER Pune",
+      "emailId": "suhas.kulkarni@scicomsoftware.com",
+      "source": "excel"
+    },
+    {
+      "name": "Bodhaditya Santra",
+      "tag": "Expo",
+      "institute": "Prenishq",
+      "hub": "I-Hub QTF, IISER Pune",
+      "emailId": "bodhaditya.santra@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Shubham Utreja",
+      "tag": "Expo",
+      "institute": "Prenishq",
+      "hub": "I-Hub QTF, IISER Pune",
+      "emailId": "shubhamutreja77@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Sunil Sud",
+      "tag": "Expo",
+      "institute": "QuNu Labs Pvt Ltd",
+      "hub": "I-Hub QTF, IISER Pune",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Arsh Ahmed",
+      "tag": "Expo",
+      "institute": "QuNu Labs Pvt Ltd",
+      "hub": "I-Hub QTF, IISER Pune",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Vamsi Krishna",
+      "tag": "Expo",
+      "institute": "QpiAI Pvt Ltd",
+      "hub": "I-Hub QTF, IISER Pune",
+      "emailId": "vamsi.k@qpiai.tech",
+      "source": "excel"
+    },
+    {
+      "name": "Firoz Tahashildar",
+      "tag": "Expo",
+      "institute": "QpiAI Pvt Ltd",
+      "hub": "I-Hub QTF, IISER Pune",
+      "emailId": "Firoz.t@qpiai.tech",
+      "source": "excel"
+    },
+    {
+      "name": "Devendra Mishra",
+      "tag": "Expo",
+      "institute": "Quantum AI Global (QAIG)",
+      "hub": "IIT Madras",
+      "emailId": "devendra.mishra@qulabs.ai",
+      "source": "excel"
+    },
+    {
+      "name": "Sanjay Chittore",
+      "tag": "Expo",
+      "institute": "Quantum AI Global (QAIG)",
+      "hub": "IIT Madras",
+      "emailId": "sanjay@thequantum.ai",
+      "source": "excel"
+    },
+    {
+      "name": "Ashutosh Singh",
+      "tag": "Expo",
+      "institute": "IITM CDOT Samgnya Technologies Foundation",
+      "hub": "IIT Madras",
+      "emailId": "ashutosh@ee.iitm.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Anagha Gayatri M",
+      "tag": "Expo",
+      "institute": "IITM CDOT Samgnya Technologies Foundation",
+      "hub": "IIT Madras",
+      "emailId": "anaghagayathri@smail.iitm.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Abhilash Kumar Das",
+      "tag": "Expo",
+      "institute": "IITM CDOT Samgnya Technologies Foundation",
+      "hub": "IIT Madras",
+      "emailId": "abhilashkd@iitbhilai.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Anirudh Jaiswal",
+      "tag": "Expo",
+      "institute": "IITM CDOT Samgnya Technologies Foundation",
+      "hub": "IIT Madras",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Bhaskar Sarkar",
+      "tag": "Expo",
+      "institute": "IITM CDOT Samgnya Technologies Foundation",
+      "hub": "IIT Madras",
+      "emailId": "bhaskarsarkar1213@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Abhay Dulta",
+      "tag": "Expo",
+      "institute": "IITM CDOT Samgnya Technologies Foundation",
+      "hub": "IIT Madras",
+      "emailId": "phz228454@iitd.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Shubham Prajapati",
+      "tag": "Expo",
+      "institute": "Synergy Quantum",
+      "hub": "IIT Madras",
+      "emailId": "shubham.prajapati@synergyquantum.in",
+      "source": "excel"
+    },
+    {
+      "name": "Snehal Sharma",
+      "tag": "Expo",
+      "institute": "Synergy Quantum",
+      "hub": "IIT Madras",
+      "emailId": "snehal@synergyquantum.in",
+      "source": "excel"
+    },
+    {
+      "name": "Aniket Nag",
+      "tag": "Expo",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "aniketnag24@iitk.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Pranay Mohta",
+      "tag": "Expo",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "pmohta@iitk.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Praveen Hegde",
+      "tag": "Expo",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "p.hegde@physics.iitm.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "John Jesudasan",
+      "tag": "Expo",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "johnj.tifr@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Pooja Gunjal",
+      "tag": "Expo",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "poojagunjal1212@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Roopa J",
+      "tag": "Expo",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "roopaj@iisc.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Purna Pal",
+      "tag": "Expo",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "purnapal@iisc.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Shouvik Mukherjee",
+      "tag": "Expo",
+      "institute": "Nostradamus",
+      "hub": "IIT Bombay",
+      "emailId": "shouvik@qubeats.com",
+      "source": "excel"
+    },
+    {
+      "name": "Pritam Das",
+      "tag": "Expo",
+      "institute": "Nostradamus",
+      "hub": "IIT Bombay",
+      "emailId": "pritam@qubeats.com",
+      "source": "excel"
+    },
+    {
+      "name": "Nishitha N",
+      "tag": "Poster",
+      "institute": "Foundation for QC Innovation",
+      "hub": "IISc Bangalore",
+      "emailId": "nishithn@iisc.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Sanchari Chakraborti",
+      "tag": "Poster",
+      "institute": "Foundation for QC Innovation",
+      "hub": "IISc Bangalore",
+      "emailId": "sancharic@iisc.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Akshai Krishnan T",
+      "tag": "Poster",
+      "institute": "Foundation for QC Innovation",
+      "hub": "IISc Bangalore",
+      "emailId": "akshait@iisc.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Srijita Das",
+      "tag": "Poster",
+      "institute": "Foundation for QC Innovation",
+      "hub": "IISc Bangalore",
+      "emailId": "srijitadas22@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Vaibhav Anand Srivastava",
+      "tag": "Poster",
+      "institute": "Foundation for QC Innovation",
+      "hub": "IISc Bangalore",
+      "emailId": "vaibhavas@iisc.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Shahnoor Ali",
+      "tag": "Poster",
+      "institute": "IITM CDOT Samgnya Technologies Foundation",
+      "hub": "IIT Madras",
+      "emailId": "shahnoorali1989@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Debadrita Ghosh",
+      "tag": "Poster",
+      "institute": "IITM CDOT Samgnya Technologies Foundation",
+      "hub": "IIT Madras",
+      "emailId": "debadrita@rrimail.rri.res.in",
+      "source": "excel"
+    },
+    {
+      "name": "Satish Kumar",
+      "tag": "Poster",
+      "institute": "IITM CDOT Samgnya Technologies Foundation",
+      "hub": "IIT Madras",
+      "emailId": "dr.satishseth@iisermohali.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Saravana Vilashini M",
+      "tag": "Poster",
+      "institute": "IITM CDOT Samgnya Technologies Foundation",
+      "hub": "IIT Madras",
+      "emailId": "ee19d021@smail.iitm.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Siddhartha Chowdhury",
+      "tag": "Poster",
+      "institute": "IITM CDOT Samgnya Technologies Foundation",
+      "hub": "IIT Madras",
+      "emailId": "siddhartha.chowdhury92@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Sai Tarun Baratam",
+      "tag": "Poster",
+      "institute": "IITM CDOT Samgnya Technologies Foundation",
+      "hub": "IIT Madras",
+      "emailId": "baratamsaitarun@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Kamal Kant Tripathi",
+      "tag": "Poster",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "kamalt24@iitk.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Rakesh Dash",
+      "tag": "Poster",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "rakeshd24@iitk.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Eklavy Vashist",
+      "tag": "Poster",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "eklavy.vashist@qmettech.com",
+      "source": "excel"
+    },
+    {
+      "name": "Pralekh Dubey",
+      "tag": "Poster",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "dpralekh@iiserb.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Pratyush Biswas",
+      "tag": "Poster",
+      "institute": "QMD Foundation",
+      "hub": "IIT Delhi",
+      "emailId": "pratyushrajbiswas@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Sangeet Rathi",
+      "tag": "Poster",
+      "institute": "QMD Foundation",
+      "hub": "IIT Delhi",
+      "emailId": "sangeet.ph@sric.iitr.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Pawan Kumar",
+      "tag": "Poster",
+      "institute": "QMD Foundation",
+      "hub": "IIT Delhi",
+      "emailId": "kumarpawan.ece@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Pawan Kumar Shukla",
+      "tag": "Poster",
+      "institute": "QMD Foundation",
+      "hub": "IIT Delhi",
+      "emailId": "pawan.ece@sric.iitr.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Subham Mahanti",
+      "tag": "Poster",
+      "institute": "QMD Foundation",
+      "hub": "IIT Delhi",
+      "emailId": "mahanti.subham25@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Amrita Majumder",
+      "tag": "Poster",
+      "institute": "QMD Foundation",
+      "hub": "IIT Delhi",
+      "emailId": "amrita.majumder@iitb.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Ritik Jain",
+      "tag": "Delegate",
+      "institute": "IISER Bhopal",
+      "hub": "IIT Madras",
+      "emailId": "ritikjain@iiserb.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Sourabh Jain",
+      "tag": "Delegate",
+      "institute": "IISER Pune",
+      "hub": "IIT Delhi",
+      "emailId": "sourabh.jain@students.iiserpune.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Vinod Kumar",
+      "tag": "Delegate",
+      "institute": "IISER Pune",
+      "hub": "IIT Delhi",
+      "emailId": "vinod.kumar@students.iiserpune.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Aparna Shinde",
+      "tag": "Delegate",
+      "institute": "IISER Pune",
+      "hub": "IIT Delhi",
+      "emailId": "aparna.shinde@students.iiserpune.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Soorya S",
+      "tag": "Delegate",
+      "institute": "IISER Bhopal",
+      "hub": "IIT Madras",
+      "emailId": "sooryas@iiserb.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Chayan Purkait",
+      "tag": "Delegate",
+      "institute": "IACS",
+      "hub": "IIT Bombay",
+      "emailId": "chayanpurkaitcareer@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Dhairya Bhandari",
+      "tag": "Delegate",
+      "institute": "IISER Pune",
+      "hub": "IIT Delhi",
+      "emailId": "dhairya.bhandari@students.iiserpune.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Sunny Bajaj",
+      "tag": "Delegate",
+      "institute": "IIT Ropar",
+      "hub": "IIT Bombay",
+      "emailId": "sunny.25phz0023@iitrpr.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Raja Mondal",
+      "tag": "Delegate",
+      "institute": "IIT Ropar",
+      "hub": "IIT Bombay",
+      "emailId": "raja.25phz0021@iitrpr.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Neethu K",
+      "tag": "Delegate",
+      "institute": "IIT Ropar",
+      "hub": "IIT Bombay",
+      "emailId": "staff.neethu@iitrpr.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Hrdya Joshi",
+      "tag": "Delegate",
+      "institute": "TIFR Mumbai",
+      "hub": "IIT Bombay",
+      "emailId": "hrdya.joshi@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Rahul Mohanty",
+      "tag": "Delegate",
+      "institute": "TIFR",
+      "hub": "IIT Bombay",
+      "emailId": "rahul.mohanty@tifr.res.in",
+      "source": "excel"
+    },
+    {
+      "name": "Satyabrata Baidya",
+      "tag": "Delegate",
+      "institute": "TIFR",
+      "hub": "IIT Bombay",
+      "emailId": "satyabrata.baidya@tifr.res.in",
+      "source": "excel"
+    },
+    {
+      "name": "Vikas R",
+      "tag": "Delegate",
+      "institute": "CDAC",
+      "hub": "IISc Bangalore",
+      "emailId": "vikasramaswamy@cdac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Foram P Shingala",
+      "tag": "Delegate",
+      "institute": "SETS",
+      "hub": "IISc Bangalore",
+      "emailId": "foram@setsindia.net",
+      "source": "excel"
+    },
+    {
+      "name": "SELVAGANGAI C",
+      "tag": "Delegate",
+      "institute": "SETS",
+      "hub": "IIT Madras",
+      "emailId": "selvagangi@setsindia.net",
+      "source": "excel"
+    },
+    {
+      "name": "Anupam Patra",
+      "tag": "Delegate",
+      "institute": "TCG Crest",
+      "hub": "IIT Bombay",
+      "emailId": "anupam.patra.137@tcgcrest.org",
+      "source": "excel"
+    },
+    {
+      "name": "Aishwarya L",
+      "tag": "Delegate",
+      "institute": "TIFR Mumbai",
+      "hub": "IIT Bombay",
+      "emailId": "aishwarya1820@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Mithilesh Kumar PARIT",
+      "tag": "Delegate",
+      "institute": "IIT Patna",
+      "hub": "IIT Madras",
+      "emailId": "mithilesh_25ps76@iitp.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Rakesh Pradhan",
+      "tag": "Delegate",
+      "institute": "IIT Ropar",
+      "hub": "IIT Bombay",
+      "emailId": "rakesh.25phz0003@iitrpr.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof.T S Mahesh",
+      "tag": "Quantum Algorithms",
+      "institute": "IISER Pune",
+      "hub": "Q-Algorithm",
+      "emailId": "santh@iiserpune.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Ankush Sharma",
+      "tag": "Quantum Algorithms",
+      "institute": "IIT Kanpur",
+      "hub": "Q-Algorithm",
+      "emailId": "ansharma@iitk.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Atanu Rajak",
+      "tag": "Quantum Algorithms",
+      "institute": "IIT Hyderabad",
+      "hub": "Q-Algorithm",
+      "emailId": "atanu@phy.iith.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. P Arumugam",
+      "tag": "Quantum Algorithms",
+      "institute": "IIT Roorkee",
+      "hub": "Q-Algorithm",
+      "emailId": "arumugam@ph.iitr.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Nilmani Mathur",
+      "tag": "Quantum Algorithms",
+      "institute": "TIFR Mumbai",
+      "hub": "Q-Algorithm",
+      "emailId": "nilmani@theory.tifr.res.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Ashutosh Bhatia",
+      "tag": "Quantum Algorithms",
+      "institute": "Birla Institute of Technology and Science (Bits)  Pilani,  Pilani Campus",
+      "hub": "Q-Algorithm",
+      "emailId": "ashutosh.bhatia@pilani.bits-pilani.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Rahul Maitra",
+      "tag": "Quantum Algorithms",
+      "institute": "IIT Bombay",
+      "hub": "Q-Algorithm",
+      "emailId": "rmaitra@chem.iitb.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Srinivasa Prasanna V",
+      "tag": "Quantum Algorithms",
+      "institute": "The Chatterjee Group Centres For Research and Education in Science and Technology (TCG CREST), West Bengal",
+      "hub": "Q-Algorithm",
+      "emailId": "srinivasaprasannaa@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Venkata Madhuri Kalapala",
+      "tag": "Teaching Lab",
+      "institute": "Vignan's Foundation for Science Technology and Research (Deemed to Be University), Guntur, Vadlamudi, Andhra Pradesh",
+      "hub": "Teaching Lab",
+      "emailId": "drkvm_sh@vignan.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. S Arunkumar",
+      "tag": "Teaching Lab",
+      "institute": "Gandhi Institute of Technology and Management, Gandhinagar, Visakhapatnam, Andhra Pradesh",
+      "hub": "Teaching Lab",
+      "emailId": "dean_cse@gitam.edu",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Ravindra Kumar Sinha",
+      "tag": "Teaching Lab",
+      "institute": "Delhi Technological University",
+      "hub": "Teaching Lab",
+      "emailId": "dr_rk_sinha@yahoo.com",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Girish J",
+      "tag": "Teaching Lab",
+      "institute": "GMR Institute of Technology, Rajam, Srikakulam, Andhra Pradesh",
+      "hub": "Teaching Lab",
+      "emailId": "Dr.Girish.Jammigumpula@gmrgroup.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr.Sumalatha Lingamgunta",
+      "tag": "Teaching Lab",
+      "institute": "University College of Engineering Kakinada, East Godavari, Kakinada, Andhra Pradesh",
+      "hub": "Teaching Lab",
+      "emailId": "lsumalatha@jntucek.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr.Suneetha Eluri",
+      "tag": "Teaching Lab",
+      "institute": "University College of Engineering Kakinada, East Godavari, Kakinada, Andhra Pradesh",
+      "hub": "Teaching Lab",
+      "emailId": "lsumalatha@jntucek.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Anagh Bhaumik",
+      "tag": "Teaching Lab",
+      "institute": "IIT Gandhinagar",
+      "hub": "Teaching Lab",
+      "emailId": "anagh.bhaumik@iitgn.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Aswath Babu",
+      "tag": "Teaching Lab",
+      "institute": "Indian Institute of Information Technology, Dharwad",
+      "hub": "Teaching Lab",
+      "emailId": "aswath@iiitdwd.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Aman Mahajan",
+      "tag": "Teaching Lab",
+      "institute": "Guru Nanak Dev University",
+      "hub": "Teaching Lab",
+      "emailId": "aman.phy@gndu.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Venkata Krishnaiah Kummara",
+      "tag": "Teaching Lab",
+      "institute": "Rajeev Gandhi Memorial College of Engineering and Technology",
+      "hub": "Teaching Lab",
+      "emailId": "kvkphd84@gmail.com",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Sadu Chiranjeevi",
+      "tag": "Teaching Lab",
+      "institute": "Rajiv Gandhi University of Knowledge Technologies",
+      "hub": "Teaching Lab",
+      "emailId": "schiranjeevi@rguktn.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Dheeraj Kumar Sinha",
+      "tag": "Teaching Lab",
+      "institute": "Indian Institute of Information Technology Bihar",
+      "hub": "Teaching Lab",
+      "emailId": "dksinha.ece@iiitbh.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Sanjeev Kumar",
+      "tag": "Teaching Lab",
+      "institute": "Punjab Engineering College",
+      "hub": "Teaching Lab",
+      "emailId": "sanjeev@pec.edu.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Thomas Andrews Joseph",
+      "tag": "Teaching Lab",
+      "institute": "Shri G.S. Institute of Tech. and Science, Indore, Madhya Pradesh",
+      "hub": "Teaching Lab",
+      "emailId": "jtandrews@sgsits.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Babasaheb Raghunath Sankapal",
+      "tag": "Teaching Lab",
+      "institute": "",
+      "hub": "Teaching Lab",
+      "emailId": "brsankapal@phy.vnit.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Jyoti Prakash Kar",
+      "tag": "Teaching Lab",
+      "institute": "National Institute of Technology Rourkela",
+      "hub": "Teaching Lab",
+      "emailId": "karjp@nitrkl.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. V Narayanan",
+      "tag": "Teaching Lab",
+      "institute": "IIT Jodhpur",
+      "hub": "Teaching Lab",
+      "emailId": "vnara@iitj.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Haree Shankar Meganathan",
+      "tag": "Teaching Lab",
+      "institute": "Rajalakshmi Institute of Technology",
+      "hub": "Teaching Lab",
+      "emailId": "sasikumar.s@ritchennai.edu.in",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. C. Muthamizhchelvan",
+      "tag": "Teaching Lab",
+      "institute": "SRM Institute of Science and Technology",
+      "hub": "Teaching Lab",
+      "emailId": "vc@srmist.edu.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Atul Kumar",
+      "tag": "Teaching Lab",
+      "institute": "IIT BHU",
+      "hub": "Teaching Lab",
+      "emailId": "atul.ece@iitbhu.ac.in",
+      "source": "excel"
+    },
+    {
+      "name": "Mr. Kishan Kumar Kejriwal",
+      "tag": "Teaching Lab",
+      "institute": "MCKV Institute of Engineering",
+      "hub": "Teaching Lab",
+      "emailId": "soma.bandyopadhyay@mckvie.edu.in",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Sunil Gupta",
+      "tag": "Startup",
+      "institute": "QuNu Labs Pvt Ltd",
+      "hub": "I-Hub QTF",
+      "emailId": "sunil@qnulabs.com",
+      "source": "excel"
+    },
+    {
+      "name": "Dilip Singh",
+      "tag": "Startup",
+      "institute": "QuNu Labs Pvt Ltd",
+      "hub": "I-Hub QTF",
+      "emailId": "dilip@qunulabs.com",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Nagendra Nagaraja",
+      "tag": "Startup",
+      "institute": "QpiAI Pvt Ltd",
+      "hub": "I-Hub QTF",
+      "emailId": "nagendra.nagaraja@qpiai.tech",
+      "source": "excel"
+    },
+    {
+      "name": "Sourav Sarkar",
+      "tag": "Startup",
+      "institute": "Sense-XT Innovations Pvt Ltd",
+      "hub": "IIT Bombay",
+      "emailId": "sourav.sarkar@jadavpuruniversity.in",
+      "source": "excel"
+    },
+    {
+      "name": "Pranab Dutta",
+      "tag": "Startup",
+      "institute": "GDQLabs Pvt Ltd",
+      "hub": "IIT Bombay",
+      "emailId": "pranab@gdqlabs.com",
+      "source": "excel"
+    },
+    {
+      "name": "Swavagyashree",
+      "tag": "Startup",
+      "institute": "Orvis Semi Pvt Ltd",
+      "hub": "IIT Bombay",
+      "emailId": "swavagyashree@orvissemi.com",
+      "source": "excel"
+    },
+    {
+      "name": "Subu Gupta",
+      "tag": "Startup",
+      "institute": "Quantum Biosciences Pvt Ltd",
+      "hub": "IIT Bombay",
+      "emailId": "subu@quantumbiosciences.ai",
+      "source": "excel"
+    },
+    {
+      "name": "Hardik Joshi",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Sanjana Nene",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Snehal Gosavi",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Srishti Girish",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Elton Noronha",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Ruchi Singh",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Puja Chakraborty",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Rachana Shiriskar",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Aditi Yadav",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Jeenal Kalal",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Santosh Shedge",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Deepawali Khade",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Swapneel Kochikar",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Aakash Gala",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Rutuja Chalke",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Aditya",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Wajid Khan",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Heena Pathan",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Pavithra Nair",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Shishir Dasika",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Prasobh Padmanabhan",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Vinayak Rane",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Abhijeet Ghodgaonkar",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Kali Pada Bhukta",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Jay Gharat",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Balachandar Settu",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Varsha Ingale",
+      "tag": "Organizer",
+      "institute": "Qmet Tech Foundation",
+      "hub": "IIT Bombay",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Maheshwar Mangat",
+      "tag": "Delegate",
+      "institute": "IIT Bombay",
+      "hub": "IIT Bombay",
+      "emailId": "maheshwar.mangat@iitb.ac.in <maheshwar.mangat@iitb.ac.in>",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Ajay Kumar Sood",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Ajai Chowdhry",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "V K Saraswat",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Abhay Karandikar",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. JBV Reddy",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Preeti Banzal",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Anurag Mishra",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Swati Rawal Dang",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Ishan Jawa",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Joynarayan Mukherjee",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Bhavani Nakka",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. P. J. Narayanan",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Capt(IN) Anil Kumar Singh",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Rahul Yadav",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Yatinder Prasad",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Shri Dhruva Kumar Singh",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "RAdm Kunal Singh Rajkumar",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Harrick Vin",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Somna Mahajan",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Ashish Dutta",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Shri Navin Kumar Singh",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Rajat Moona",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Shri Vinod Kumar",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Shri Dhanesh Goel",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Shri Jitendra Bhoi",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "S. P. Shukla",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Dr. Praveer Asthana",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Vijay Rao",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Milind Atrey",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Shireesh Kedare",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Prof. Rudra Pratap",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "Arindam Ghosh",
+      "tag": "Delegate",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "excel"
+    },
+    {
+      "name": "test",
+      "tag": "PI",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "manual"
+    }
+  ],
+  "added_records": [
+    {
+      "name": "test",
+      "tag": "PI",
+      "institute": "",
+      "hub": "",
+      "emailId": "",
+      "source": "manual"
+    }
+  ]
+}
