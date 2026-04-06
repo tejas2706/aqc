@@ -17,7 +17,7 @@ st.markdown(
             linear-gradient(180deg, #f8faf7 0%, #eef2f6 100%);
     }
     .block-container {
-        padding-top: 3rem;
+        padding-top: 4.75rem;
         padding-bottom: 2rem;
         max-width: 980px;
     }
@@ -96,17 +96,12 @@ st.markdown(
         color: #7a8194;
         font-size: 0.82rem;
     }
-    .metric-panel {
+    div[data-testid="stMetric"] {
         background: rgba(255, 255, 255, 0.74);
         border: 1px solid #d7dde5;
         border-radius: 18px;
-        padding: 0.3rem 0.85rem;
+        padding: 0.85rem 1rem;
         box-shadow: 0 10px 26px rgba(15, 23, 42, 0.05);
-    }
-    div[data-testid="stMetric"] {
-        background: transparent;
-        border: none;
-        padding: 0.2rem 0;
     }
     div[data-testid="stForm"] {
         background: rgba(255, 255, 255, 0.72);
@@ -134,6 +129,16 @@ st.markdown(
         border-radius: 14px;
         font-weight: 600;
     }
+    div[data-testid="stButton"] button[data-testid="baseButton-secondary"] {
+        min-height: 2.2rem;
+        height: 2.2rem;
+        width: 2.2rem;
+        min-width: 2.2rem;
+        padding: 0;
+        border-radius: 12px;
+        font-size: 0.95rem;
+        line-height: 1;
+    }
     .spacer-sm {
         height: 0.35rem;
     }
@@ -156,7 +161,7 @@ st.markdown(
     }
     @media (max-width: 768px) {
         .block-container {
-            padding-top: 1rem;
+            padding-top: 3.5rem;
             padding-bottom: 1.25rem;
             padding-left: 0.9rem;
             padding-right: 0.9rem;
@@ -202,6 +207,7 @@ st.markdown(
     }
     @media (max-width: 480px) {
         .block-container {
+            padding-top: 3.1rem;
             padding-left: 0.7rem;
             padding-right: 0.7rem;
         }
@@ -217,9 +223,6 @@ st.markdown(
         }
         div[data-testid="stTabs"] button[role="tab"] {
             min-width: max-content;
-        }
-        .metric-panel {
-            padding: 0.25rem 0.7rem;
         }
     }
     </style>
@@ -254,6 +257,27 @@ def render_result_cards(results: list[dict]) -> None:
     )
 
 
+def run_search() -> None:
+    query = st.session_state.search_query.strip()
+    if not query:
+        st.session_state.search_results = []
+        st.session_state.search_feedback = ("warning", "Enter a name or email ID to search.")
+        return
+
+    results = search_attendees(query, st.session_state.dataset.get("records", []))
+    st.session_state.search_results = results
+    if results:
+        st.session_state.search_feedback = ("success", f"Found {len(results)} matching attendee(s).")
+    else:
+        st.session_state.search_feedback = ("warning", "No attendee matched that search.")
+
+
+def clear_search() -> None:
+    st.session_state.search_query = ""
+    st.session_state.search_results = []
+    st.session_state.search_feedback = None
+
+
 st.markdown(
     """
     <div class="app-shell">
@@ -268,6 +292,12 @@ if "dataset" not in st.session_state:
     st.session_state.dataset = refresh_dataset()
 if "show_add_form" not in st.session_state:
     st.session_state.show_add_form = False
+if "search_query" not in st.session_state:
+    st.session_state.search_query = ""
+if "search_results" not in st.session_state:
+    st.session_state.search_results = []
+if "search_feedback" not in st.session_state:
+    st.session_state.search_feedback = None
 
 
 search_tab, sync_tab, add_tab = st.tabs(
@@ -276,23 +306,32 @@ search_tab, sync_tab, add_tab = st.tabs(
 
 with search_tab:
     st.markdown('<div class="section-title">Search attendee:</div>', unsafe_allow_html=True)
-    query = st.text_input(
-        "Enter a name or email ID",
-        placeholder="e.g. Akshay Naik or anaik@iisc.ac.in",
-        key="search_query",
-    )
-    search_clicked = st.button("Search", use_container_width=True, key="search_button")
+    input_col, clear_col = st.columns([16, 1], vertical_alignment="bottom")
+    with input_col:
+        st.text_input(
+            "Enter a name or email ID",
+            placeholder="e.g. Akshay Naik or anaik@iisc.ac.in",
+            key="search_query",
+            on_change=run_search,
+        )
+    with clear_col:
+        st.button(
+            "✕",
+            key="clear_search_button",
+            help="Clear search",
+            use_container_width=True,
+            on_click=clear_search,
+        )
 
-    if search_clicked:
-        if not query.strip():
-            st.warning("Enter a name or email ID to search.")
-        else:
-            results = search_attendees(query, st.session_state.dataset.get("records", []))
-            if results:
-                st.success(f"Found {len(results)} matching attendee(s).")
-                render_result_cards(results)
-            else:
-                st.warning("No attendee matched that search.")
+    if st.button("Search", use_container_width=True, key="search_button"):
+        run_search()
+
+    if st.session_state.search_feedback:
+        level, message = st.session_state.search_feedback
+        getattr(st, level)(message)
+
+    if st.session_state.search_results:
+        render_result_cards(st.session_state.search_results)
 
 with sync_tab:
     st.markdown('<div class="section-title">Sync with Excel</div>', unsafe_allow_html=True)
@@ -306,9 +345,7 @@ with sync_tab:
             st.session_state.dataset = refresh_dataset(force_refresh=True)
             st.success(f"Reloaded attendee data into {DATA_PATH.name}")
     with col2:
-        st.markdown('<div class="metric-panel">', unsafe_allow_html=True)
         st.metric("People loaded", len(st.session_state.dataset.get("records", [])))
-        st.markdown("</div>", unsafe_allow_html=True)
 
 with add_tab:
     st.markdown('<div class="section-title">Add attendee</div>', unsafe_allow_html=True)
