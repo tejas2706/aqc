@@ -1,6 +1,7 @@
 from pathlib import Path
 from html import escape
 
+import pandas as pd
 import streamlit as st
 
 from aqc_data import (
@@ -9,6 +10,7 @@ from aqc_data import (
     add_attendee,
     import_attendees_from_workbook,
     load_or_create_dataset,
+    mark_attendee_present,
     search_attendees,
     workbook_bytes,
 )
@@ -136,6 +138,11 @@ st.markdown(
         min-height: 3rem;
         border-radius: 14px;
         font-weight: 600;
+    }
+    .small-action-btn button {
+        min-height: 2.4rem !important;
+        font-size: 0.9rem !important;
+        border-radius: 12px !important;
     }
     div[data-testid="stButton"] button[data-testid="baseButton-secondary"] {
         min-height: 2.2rem;
@@ -265,29 +272,51 @@ def tag_pill_style(result: dict) -> str:
 
 
 def render_result_cards(results: list[dict]) -> None:
-    cards = []
-    for result in results:
-        pill_style = tag_pill_style(result)
-        cards.append(
-            (
-                '<div class="result-card">'
-                f'<h3 class="result-name">{escape(result.get("name", "Unknown"))}</h3>'
-                f'<div class="tag-pill"{pill_style}>{escape(result.get("tag", "-"))}</div>'
-                f'<p class="result-meta"><strong>Email ID:</strong> {escape(result.get("emailId", "-") or "-")}</p>'
-                f'<p class="result-meta"><strong>Institute:</strong> {escape(result.get("institute", "-") or "-")}</p>'
-                f'<p class="result-meta"><strong>Hub:</strong> {escape(result.get("hub", "-") or "-")}</p>'
-                f'<div class="result-source">Source: {escape(result.get("source", "unknown"))}</div>'
-                "</div>"
-            )
-        )
-
-    st.markdown(
-        '<div class="result-grid">' + "".join(cards) + "</div>",
-        unsafe_allow_html=True,
-    )
+    columns = st.columns(2)
+    for index, result in enumerate(results):
+        with columns[index % 2]:
+            with st.container(border=True):
+                pill_style = tag_pill_style(result)
+                st.markdown(f'<div class="tag-pill"{pill_style}>{escape(result.get("tag", "-"))}</div>', unsafe_allow_html=True)
+                st.markdown(f"### {escape(result.get('name', 'Unknown'))}")
+                st.markdown(
+                    f'<p class="result-meta"><strong>Email ID:</strong> {escape(result.get("emailId", "-") or "-")}</p>',
+                    unsafe_allow_html=True,
+                )
+                st.markdown(
+                    f'<p class="result-meta"><strong>Institute:</strong> {escape(result.get("institute", "-") or "-")}</p>',
+                    unsafe_allow_html=True,
+                )
+                st.markdown(
+                    f'<p class="result-meta"><strong>Hub:</strong> {escape(result.get("hub", "-") or "-")}</p>',
+                    unsafe_allow_html=True,
+                )
+                present_value = (result.get("present", "") or "").strip().lower()
+                if present_value == "yes":
+                    st.success("Present: Yes")
+                else:
+                    st.caption("Present: No")
+                st.caption(f"Source: {escape(result.get('source', 'unknown'))}")
+                if present_value == "yes":
+                    st.button(
+                        "Reset present",
+                        key=f"reset_present_{index}_{escape(result.get('emailId', result.get('name', '')))}",
+                        use_container_width=True,
+                        on_click=open_present_dialog,
+                        args=(result, "reset"),
+                    )
+                else:
+                    st.button(
+                        "Mark present",
+                        key=f"mark_present_{index}_{escape(result.get('emailId', result.get('name', '')))}",
+                        use_container_width=True,
+                        on_click=open_present_dialog,
+                        args=(result, "mark"),
+                    )
 
 
 def run_search() -> None:
+    st.session_state.present_record = None
     query = st.session_state.search_query.strip()
     if not query:
         st.session_state.search_results = []
@@ -303,9 +332,51 @@ def run_search() -> None:
 
 
 def clear_search() -> None:
+    st.session_state.present_record = None
     st.session_state.search_query = ""
     st.session_state.search_results = []
     st.session_state.search_feedback = None
+
+
+def toggle_add_form() -> None:
+    st.session_state.show_add_form = not st.session_state.show_add_form
+
+
+def open_present_dialog(record: dict, action: str) -> None:
+    st.session_state.present_record = record
+    st.session_state.present_action = action
+
+
+def clear_present_dialog() -> None:
+    st.session_state.present_record = None
+    st.session_state.present_action = None
+
+
+@st.dialog("Attendance Confirmation", on_dismiss=clear_present_dialog)
+def show_present_dialog() -> None:
+    record = st.session_state.get("present_record")
+    action = st.session_state.get("present_action")
+    if not record or not action:
+        return
+
+    is_reset = action == "reset"
+    st.write(
+        f"{'Reset' if is_reset else 'Mark'} **{record.get('name', 'this attendee')}** as present?"
+    )
+    yes_col, no_col = st.columns(2)
+    with yes_col:
+        if st.button("Yes", use_container_width=True, key="confirm_present_yes"):
+            next_value = "" if is_reset else "yes"
+            if mark_attendee_present(record, next_value):
+                st.session_state.dataset = refresh_dataset(force_refresh=True)
+                if st.session_state.search_query.strip():
+                    run_search()
+                clear_present_dialog()
+                st.rerun()
+    with no_col:
+        if st.button("No", use_container_width=True, key="confirm_present_no"):
+            clear_present_dialog()
+            st.rerun()
 
 
 st.markdown(
@@ -328,10 +399,17 @@ if "search_results" not in st.session_state:
     st.session_state.search_results = []
 if "search_feedback" not in st.session_state:
     st.session_state.search_feedback = None
+if "present_record" not in st.session_state:
+    st.session_state.present_record = None
+if "present_action" not in st.session_state:
+    st.session_state.present_action = None
+
+if st.session_state.present_record:
+    show_present_dialog()
 
 
-search_tab, sync_tab, add_tab = st.tabs(
-    ["Search", "Sync with excel", "Add attendee"]
+search_tab, sync_tab, view_tab = st.tabs(
+    ["Search", "Sync with excel", "View data"]
 )
 
 with search_tab:
@@ -393,15 +471,30 @@ with sync_tab:
                 f"Processed {summary['uploaded']} row(s): imported {summary['imported']} and skipped {summary['skipped']} duplicate row(s)."
             )
 
-with add_tab:
-    st.markdown('<div class="section-title">Add attendee</div>', unsafe_allow_html=True)
-    st.markdown(
-        '<div class="tab-copy">Add a new attendee locally, and optionally write the same record back into the Excel workbook.</div>',
-        unsafe_allow_html=True,
-    )
-    toggle_label = "Hide add attendee form" if st.session_state.show_add_form else "Add attendee"
-    if st.button(toggle_label, use_container_width=True, key="toggle_add_form"):
-        st.session_state.show_add_form = not st.session_state.show_add_form
+with view_tab:
+    st.markdown('<div class="section-title">Excel attendee data</div>', unsafe_allow_html=True)
+    action_col1, action_col2 = st.columns(2)
+    with action_col1:
+        st.markdown('<div class="small-action-btn">', unsafe_allow_html=True)
+        toggle_label = "Hide add attendee form" if st.session_state.show_add_form else "Add attendee"
+        st.button(
+            toggle_label,
+            use_container_width=True,
+            key="toggle_add_form",
+            on_click=toggle_add_form,
+        )
+        st.markdown("</div>", unsafe_allow_html=True)
+    with action_col2:
+        st.markdown('<div class="small-action-btn">', unsafe_allow_html=True)
+        st.download_button(
+            "Download Excel workbook",
+            data=workbook_bytes(),
+            file_name=WORKBOOK_PATH.name,
+            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            use_container_width=True,
+            key="download_excel_workbook",
+        )
+        st.markdown("</div>", unsafe_allow_html=True)
 
     if st.session_state.show_add_form:
         with st.form("add_attendee_form", clear_on_submit=True):
@@ -430,18 +523,23 @@ with add_tab:
                 target_name = WORKBOOK_PATH.name if update_excel else Path(DATA_PATH).name
                 st.success(f"Added {attendee['name']} with tag {attendee['tag']} to {target_name}.")
 
-    st.markdown('<div class="section-title">Download sheet</div>', unsafe_allow_html=True)
-    st.markdown(
-        '<div class="tab-copy">Download the current Excel workbook after syncing or adding attendees.</div>',
-        unsafe_allow_html=True,
-    )
-    st.download_button(
-        "Download Excel workbook",
-        data=workbook_bytes(),
-        file_name=WORKBOOK_PATH.name,
-        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    excel_records = [
+        {
+            "Name": record.get("name", ""),
+            "emailId": record.get("emailId", ""),
+            "Tag": record.get("tag", ""),
+            "Hub": record.get("hub", ""),
+            "Present": record.get("present", ""),
+        }
+        for record in st.session_state.dataset.get("records", [])
+        if record.get("source") == "excel"
+    ]
+    table_df = pd.DataFrame(excel_records, columns=["Name", "emailId", "Tag", "Hub", "Present"])
+    st.dataframe(
+        table_df,
         use_container_width=True,
-        key="download_excel_workbook",
+        height=460,
+        hide_index=True,
     )
 
 
