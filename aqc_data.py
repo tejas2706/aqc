@@ -10,7 +10,18 @@ from typing import Any, Optional
 import xml.etree.ElementTree as ET
 
 
-WORKBOOK_PATH = Path(__file__).resolve().parent / "AQC Attendee List.xlsx"
+def _default_workbook_path() -> Path:
+    folder = Path(__file__).resolve().parent
+    candidates = sorted(folder.glob("*.xlsx"))
+    if len(candidates) == 1:
+        return candidates[0]
+    preferred = folder / "AQC Attendee List.xlsx"
+    if preferred.exists():
+        return preferred
+    return folder / "AQC Attendee List.xlsx"
+
+
+WORKBOOK_PATH = _default_workbook_path()
 DATA_PATH = Path(__file__).resolve().parent / "attendees.json"
 SHEET_NAME = "Attendee List"
 XML_NS = {
