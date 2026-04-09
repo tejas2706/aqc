@@ -211,8 +211,8 @@ def _tag_style_map(
                 font_color_node.attrib if font_color_node is not None else None,
                 theme_colors,
             )
-            if value and background and value not in style_map:
-                style_map[value] = {
+            if value and background:
+                style_map[cell.attrib["r"]] = {
                     "tagColor": background,
                     "tagBorderColor": background,
                     "tagTextColor": text_color,
@@ -285,11 +285,11 @@ def _parse_attendees_from_archive(
     header = [normalize_text(item) for item in extracted_rows[0]]
     records: list[dict[str, Any]] = []
 
-    for raw_row in extracted_rows[1:]:
+    for row_offset, raw_row in enumerate(extracted_rows[1:], start=3):
         padded = raw_row + [""] * (len(header) - len(raw_row))
         row = dict(zip(header, padded))
         tag_value = (row.get("tag", "") or "").replace("\xa0", " ").strip()
-        tag_style = tag_style_map.get(tag_value, {})
+        tag_style = tag_style_map.get(f"G{row_offset}", {})
 
         attendee = Attendee(
             name=(row.get("name", "") or "").replace("\xa0", " ").strip(),
@@ -734,9 +734,12 @@ def build_dataset() -> dict[str, Any]:
     existing_additions: list[dict[str, Any]] = []
 
     if DATA_PATH.exists():
-        with DATA_PATH.open("r", encoding="utf-8") as file:
-            existing = json.load(file)
-        existing_additions = existing.get("added_records", [])
+        try:
+            with DATA_PATH.open("r", encoding="utf-8") as file:
+                existing = json.load(file)
+            existing_additions = existing.get("added_records", [])
+        except (json.JSONDecodeError, OSError):
+            existing_additions = []
 
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
