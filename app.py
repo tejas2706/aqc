@@ -317,6 +317,7 @@ def render_result_cards(results: list[dict]) -> None:
 
 def run_search() -> None:
     st.session_state.present_record = None
+    st.session_state.dataset = refresh_dataset(force_refresh=True)
     query = st.session_state.search_query.strip()
     if not query:
         st.session_state.search_results = []

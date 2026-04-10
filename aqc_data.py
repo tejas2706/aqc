@@ -1,6 +1,7 @@
 import json
 import re
 import zipfile
+import tempfile
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from difflib import SequenceMatcher
@@ -8,6 +9,8 @@ from io import BytesIO
 from pathlib import Path
 from typing import Any, Optional
 import xml.etree.ElementTree as ET
+from contextlib import contextmanager
+import fcntl
 
 
 def _default_workbook_path() -> Path:
@@ -23,6 +26,7 @@ def _default_workbook_path() -> Path:
 
 WORKBOOK_PATH = _default_workbook_path()
 DATA_PATH = Path(__file__).resolve().parent / "attendees.json"
+LOCK_PATH = Path(__file__).resolve().parent / ".aqc.lock"
 SHEET_NAME = "Attendee List"
 XML_NS = {
     "main": "http://schemas.openxmlformats.org/spreadsheetml/2006/main",
@@ -32,6 +36,17 @@ MAIN_NS = XML_NS["main"]
 REL_NS = XML_NS["rel"]
 ET.register_namespace("", MAIN_NS)
 ET.register_namespace("r", REL_NS)
+
+
+@contextmanager
+def _exclusive_lock():
+    LOCK_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with LOCK_PATH.open("a+", encoding="utf-8") as lock_file:
+        fcntl.flock(lock_file.fileno(), fcntl.LOCK_EX)
+        try:
+            yield
+        finally:
+            fcntl.flock(lock_file.fileno(), fcntl.LOCK_UN)
 
 
 @dataclass
@@ -392,8 +407,6 @@ def _upsert_shared_string_cell(
             f"{{{MAIN_NS}}}c",
             {"r": cell_ref, "s": style_id, "t": "s"},
         )
-        row.append(target)
-        row[:] = sorted(row, key=lambda cell: _column_index(cell.attrib["r"]))
     else:
         target.attrib["s"] = style_id
         target.attrib["t"] = "s"
@@ -403,7 +416,25 @@ def _upsert_shared_string_cell(
     shared_index = _next_shared_string_index(shared_root, shared_values, shared_lookup, value)
     cell_value = ET.SubElement(target, f"{{{MAIN_NS}}}v")
     cell_value.text = str(shared_index)
+    _insert_or_replace_cell(row, target)
     return created
+
+
+def _cell_sort_key(cell: ET.Element) -> int:
+    return _column_index(cell.attrib["r"])
+
+
+def _insert_or_replace_cell(row: ET.Element, cell: ET.Element) -> None:
+    existing = None
+    for current in row.findall("main:c", XML_NS):
+        if current.attrib.get("r") == cell.attrib.get("r"):
+            existing = current
+            break
+    if existing is not None:
+        row.remove(existing)
+    row.append(cell)
+    ordered = sorted(list(row), key=_cell_sort_key)
+    row[:] = ordered
 
 
 def _ensure_present_column(
@@ -469,177 +500,91 @@ def _update_shared_string_count(shared_root: ET.Element, increment: int) -> None
 
 
 def append_attendee_to_workbook(attendee: Attendee) -> None:
-    with zipfile.ZipFile(WORKBOOK_PATH, "r") as source_archive:
-        sheet_archive_path, sheet_root, shared_root, shared_values, shared_lookup = _get_sheet_root_and_shared(
-            source_archive
-        )
-
-        sheet_data = sheet_root.find("main:sheetData", XML_NS)
-        existing_rows = sheet_data.findall("main:row", XML_NS)
-        template_row = existing_rows[-1]
-        template_cells = {
-            cell.attrib["r"][0]: cell for cell in template_row.findall("main:c", XML_NS)
-        }
-        present_column, present_header_created = _ensure_present_column(
-            sheet_root, shared_root, shared_values, shared_lookup
-        )
-
-        row_number = _last_row_number(sheet_root) + 1
-        new_row = ET.Element(
-            f"{{{MAIN_NS}}}row",
-            {
-                "r": str(row_number),
-                "spans": template_row.attrib.get("spans", "2:7"),
-                "ht": template_row.attrib.get("ht", "13"),
-            },
-        )
-        if "customHeight" in template_row.attrib:
-            new_row.attrib["customHeight"] = template_row.attrib["customHeight"]
-
-        serial_cell = ET.Element(
-            f"{{{MAIN_NS}}}c",
-            {"r": f"B{row_number}", "s": template_cells["B"].attrib.get("s", "189")},
-        )
-        serial_value = ET.SubElement(serial_cell, f"{{{MAIN_NS}}}v")
-        serial_value.text = str(row_number - 2)
-        new_row.append(serial_cell)
-
-        column_values = {
-            "C": attendee.name,
-            "D": attendee.institute,
-            "E": attendee.hub,
-            "F": attendee.emailId,
-            "G": attendee.tag,
-        }
-        for column, value in column_values.items():
-            shared_index = _next_shared_string_index(
-                shared_root, shared_values, shared_lookup, value
+    with _exclusive_lock():
+        with zipfile.ZipFile(WORKBOOK_PATH, "r") as source_archive:
+            sheet_archive_path, sheet_root, shared_root, shared_values, shared_lookup = _get_sheet_root_and_shared(
+                source_archive
             )
-            cell = ET.Element(
-                f"{{{MAIN_NS}}}c",
+
+            sheet_data = sheet_root.find("main:sheetData", XML_NS)
+            existing_rows = sheet_data.findall("main:row", XML_NS)
+            template_row = existing_rows[-1]
+            template_cells = {
+                cell.attrib["r"][0]: cell for cell in template_row.findall("main:c", XML_NS)
+            }
+            present_column, present_header_created = _ensure_present_column(
+                sheet_root, shared_root, shared_values, shared_lookup
+            )
+
+            row_number = _last_row_number(sheet_root) + 1
+            new_row = ET.Element(
+                f"{{{MAIN_NS}}}row",
                 {
-                    "r": f"{column}{row_number}",
-                    "s": template_cells[column].attrib.get("s", "189"),
-                    "t": "s",
+                    "r": str(row_number),
+                    "spans": template_row.attrib.get("spans", "2:7"),
+                    "ht": template_row.attrib.get("ht", "13"),
                 },
             )
-            cell_value = ET.SubElement(cell, f"{{{MAIN_NS}}}v")
-            cell_value.text = str(shared_index)
-            new_row.append(cell)
+            if "customHeight" in template_row.attrib:
+                new_row.attrib["customHeight"] = template_row.attrib["customHeight"]
 
-        if attendee.present:
-            present_style = template_cells.get(present_column, template_cells["G"]).attrib.get("s", "189")
-            _upsert_shared_string_cell(
-                new_row,
-                present_column,
-                row_number,
-                present_style,
-                attendee.present,
-                shared_root,
-                shared_values,
-                shared_lookup,
+            serial_cell = ET.Element(
+                f"{{{MAIN_NS}}}c",
+                {"r": f"B{row_number}", "s": template_cells["B"].attrib.get("s", "189")},
             )
+            serial_value = ET.SubElement(serial_cell, f"{{{MAIN_NS}}}v")
+            serial_value.text = str(row_number - 2)
+            new_row.append(serial_cell)
 
-        sheet_data.append(new_row)
-
-        dimension = sheet_root.find("main:dimension", XML_NS)
-        if dimension is not None:
-            start_ref, _sep, end_ref = dimension.attrib.get("ref", "B2:G2").partition(":")
-            end_column = "".join(ch for ch in end_ref if ch.isalpha()) or "G"
-            if _column_index(present_column + "1") > _column_index(end_column + "1"):
-                end_column = present_column
-            dimension.attrib["ref"] = f"{start_ref}:{end_column}{row_number}"
-
-        extra_shared = (1 if attendee.present else 0) + (1 if present_header_created else 0)
-        _update_shared_string_count(shared_root, len(column_values) + extra_shared)
-
-        temp_path = WORKBOOK_PATH.with_suffix(".tmp.xlsx")
-        updated_files = {
-            f"xl/{sheet_archive_path}": ET.tostring(
-                sheet_root, encoding="utf-8", xml_declaration=True
-            ),
-            "xl/sharedStrings.xml": ET.tostring(
-                shared_root, encoding="utf-8", xml_declaration=True
-            ),
-        }
-        with zipfile.ZipFile(temp_path, "w") as target_archive:
-            for item in source_archive.infolist():
-                data = updated_files.get(item.filename, source_archive.read(item.filename))
-                target_archive.writestr(item, data)
-
-    temp_path.replace(WORKBOOK_PATH)
-
-
-def workbook_bytes() -> bytes:
-    return WORKBOOK_PATH.read_bytes()
-
-
-def mark_attendee_present(record: dict[str, Any], present_value: str = "yes") -> bool:
-    identity = attendee_identity_key(record)
-    updated = False
-
-    with zipfile.ZipFile(WORKBOOK_PATH, "r") as source_archive:
-        sheet_archive_path, sheet_root, shared_root, shared_values, shared_lookup = _get_sheet_root_and_shared(
-            source_archive
-        )
-        present_column, present_header_created = _ensure_present_column(
-            sheet_root, shared_root, shared_values, shared_lookup
-        )
-        headers, _header_row = _header_map(sheet_root, shared_values)
-        sheet_data = sheet_root.find("main:sheetData", XML_NS)
-        rows = sheet_data.findall("main:row", XML_NS)
-        template_row = rows[-1]
-        template_cells = {cell.attrib["r"][0]: cell for cell in template_row.findall("main:c", XML_NS)}
-        present_style = template_cells.get(present_column, template_cells["G"]).attrib.get("s", "189")
-
-        for row in rows[1:]:
-            row_values: dict[str, str] = {}
-            for cell in row.findall("main:c", XML_NS):
-                value_node = cell.find("main:v", XML_NS)
-                if value_node is None:
-                    continue
-                value = value_node.text or ""
-                if cell.attrib.get("t") == "s":
-                    value = shared_values[int(value)]
-                row_values[headers.get(cell.attrib["r"][0], cell.attrib["r"][0])] = value.replace("\xa0", " ").strip()
-
-            comparable = {
-                "name": row_values.get("name", ""),
-                "tag": row_values.get("tag", ""),
-                "institute": row_values.get("institute", ""),
-                "hub": row_values.get("hub", ""),
-                "emailId": row_values.get("email", "") or row_values.get("emailid", ""),
+            column_values = {
+                "C": attendee.name,
+                "D": attendee.institute,
+                "E": attendee.hub,
+                "F": attendee.emailId,
+                "G": attendee.tag,
             }
-            if attendee_identity_key(comparable) != identity:
-                continue
+            for column, value in column_values.items():
+                shared_index = _next_shared_string_index(
+                    shared_root, shared_values, shared_lookup, value
+                )
+                cell = ET.Element(
+                    f"{{{MAIN_NS}}}c",
+                    {
+                        "r": f"{column}{row_number}",
+                        "s": template_cells[column].attrib.get("s", "189"),
+                        "t": "s",
+                    },
+                )
+                cell_value = ET.SubElement(cell, f"{{{MAIN_NS}}}v")
+                cell_value.text = str(shared_index)
+                new_row.append(cell)
 
-            _upsert_shared_string_cell(
-                row,
-                present_column,
-                int(row.attrib["r"]),
-                present_style,
-                present_value,
-                shared_root,
-                shared_values,
-                shared_lookup,
-            )
-            updated = True
-            break
+            if attendee.present:
+                present_style = template_cells.get(present_column, template_cells["G"]).attrib.get("s", "189")
+                _upsert_shared_string_cell(
+                    new_row,
+                    present_column,
+                    row_number,
+                    present_style,
+                    attendee.present,
+                    shared_root,
+                    shared_values,
+                    shared_lookup,
+                )
 
-        if updated or present_header_created:
+            sheet_data.append(new_row)
+
             dimension = sheet_root.find("main:dimension", XML_NS)
             if dimension is not None:
                 start_ref, _sep, end_ref = dimension.attrib.get("ref", "B2:G2").partition(":")
                 end_column = "".join(ch for ch in end_ref if ch.isalpha()) or "G"
-                end_row = "".join(ch for ch in end_ref if ch.isdigit()) or rows[-1].attrib["r"]
                 if _column_index(present_column + "1") > _column_index(end_column + "1"):
                     end_column = present_column
-                dimension.attrib["ref"] = f"{start_ref}:{end_column}{end_row}"
+                dimension.attrib["ref"] = f"{start_ref}:{end_column}{row_number}"
 
-            shared_increment = 1 + (1 if present_header_created else 0) if updated else (1 if present_header_created else 0)
-            _update_shared_string_count(shared_root, shared_increment)
+            extra_shared = (1 if attendee.present else 0) + (1 if present_header_created else 0)
+            _update_shared_string_count(shared_root, len(column_values) + extra_shared)
 
-            temp_path = WORKBOOK_PATH.with_suffix(".tmp.xlsx")
             updated_files = {
                 f"xl/{sheet_archive_path}": ET.tostring(
                     sheet_root, encoding="utf-8", xml_declaration=True
@@ -648,11 +593,108 @@ def mark_attendee_present(record: dict[str, Any], present_value: str = "yes") ->
                     shared_root, encoding="utf-8", xml_declaration=True
                 ),
             }
-            with zipfile.ZipFile(temp_path, "w") as target_archive:
-                for item in source_archive.infolist():
-                    data = updated_files.get(item.filename, source_archive.read(item.filename))
-                    target_archive.writestr(item, data)
-            temp_path.replace(WORKBOOK_PATH)
+            _atomic_write_workbook(source_archive, updated_files)
+
+
+def workbook_bytes() -> bytes:
+    return WORKBOOK_PATH.read_bytes()
+
+
+def _atomic_write_workbook(source_archive: zipfile.ZipFile, updated_files: dict[str, bytes]) -> None:
+    with tempfile.NamedTemporaryFile(
+        suffix=".xlsx",
+        prefix=f"{WORKBOOK_PATH.stem}.",
+        dir=str(WORKBOOK_PATH.parent),
+        delete=False,
+    ) as temp_file:
+        temp_path = Path(temp_file.name)
+
+    try:
+        with zipfile.ZipFile(temp_path, "w") as target_archive:
+            for item in source_archive.infolist():
+                data = updated_files.get(item.filename, source_archive.read(item.filename))
+                target_archive.writestr(item, data)
+        temp_path.replace(WORKBOOK_PATH)
+    finally:
+        if temp_path.exists():
+            temp_path.unlink()
+
+
+def mark_attendee_present(record: dict[str, Any], present_value: str = "yes") -> bool:
+    identity = attendee_identity_key(record)
+    updated = False
+
+    with _exclusive_lock():
+        with zipfile.ZipFile(WORKBOOK_PATH, "r") as source_archive:
+            sheet_archive_path, sheet_root, shared_root, shared_values, shared_lookup = _get_sheet_root_and_shared(
+                source_archive
+            )
+            present_column, present_header_created = _ensure_present_column(
+                sheet_root, shared_root, shared_values, shared_lookup
+            )
+            headers, _header_row = _header_map(sheet_root, shared_values)
+            sheet_data = sheet_root.find("main:sheetData", XML_NS)
+            rows = sheet_data.findall("main:row", XML_NS)
+            template_row = rows[-1]
+            template_cells = {cell.attrib["r"][0]: cell for cell in template_row.findall("main:c", XML_NS)}
+            present_style = template_cells.get(present_column, template_cells["G"]).attrib.get("s", "189")
+
+            for row in rows[1:]:
+                row_values: dict[str, str] = {}
+                for cell in row.findall("main:c", XML_NS):
+                    value_node = cell.find("main:v", XML_NS)
+                    if value_node is None:
+                        continue
+                    value = value_node.text or ""
+                    if cell.attrib.get("t") == "s":
+                        value = shared_values[int(value)]
+                    row_values[headers.get(cell.attrib["r"][0], cell.attrib["r"][0])] = value.replace("\xa0", " ").strip()
+
+                comparable = {
+                    "name": row_values.get("name", ""),
+                    "tag": row_values.get("tag", ""),
+                    "institute": row_values.get("institute", ""),
+                    "hub": row_values.get("hub", ""),
+                    "emailId": row_values.get("email", "") or row_values.get("emailid", ""),
+                }
+                if attendee_identity_key(comparable) != identity:
+                    continue
+
+                _upsert_shared_string_cell(
+                    row,
+                    present_column,
+                    int(row.attrib["r"]),
+                    present_style,
+                    present_value,
+                    shared_root,
+                    shared_values,
+                    shared_lookup,
+                )
+                updated = True
+                break
+
+            if updated or present_header_created:
+                dimension = sheet_root.find("main:dimension", XML_NS)
+                if dimension is not None:
+                    start_ref, _sep, end_ref = dimension.attrib.get("ref", "B2:G2").partition(":")
+                    end_column = "".join(ch for ch in end_ref if ch.isalpha()) or "G"
+                    end_row = "".join(ch for ch in end_ref if ch.isdigit()) or rows[-1].attrib["r"]
+                    if _column_index(present_column + "1") > _column_index(end_column + "1"):
+                        end_column = present_column
+                    dimension.attrib["ref"] = f"{start_ref}:{end_column}{end_row}"
+
+                shared_increment = 1 + (1 if present_header_created else 0) if updated else (1 if present_header_created else 0)
+                _update_shared_string_count(shared_root, shared_increment)
+
+                updated_files = {
+                    f"xl/{sheet_archive_path}": ET.tostring(
+                        sheet_root, encoding="utf-8", xml_declaration=True
+                    ),
+                    "xl/sharedStrings.xml": ET.tostring(
+                        shared_root, encoding="utf-8", xml_declaration=True
+                    ),
+                }
+                _atomic_write_workbook(source_archive, updated_files)
 
     if updated:
         dataset = load_or_create_dataset(force_refresh=True)
@@ -751,8 +793,17 @@ def build_dataset() -> dict[str, Any]:
 
 
 def save_dataset(dataset: dict[str, Any]) -> None:
-    with DATA_PATH.open("w", encoding="utf-8") as file:
-        json.dump(dataset, file, indent=2, ensure_ascii=False)
+    with tempfile.NamedTemporaryFile(
+        suffix=".json",
+        prefix=f"{DATA_PATH.stem}.",
+        dir=str(DATA_PATH.parent),
+        delete=False,
+        mode="w",
+        encoding="utf-8",
+    ) as temp_file:
+        json.dump(dataset, temp_file, indent=2, ensure_ascii=False)
+        temp_path = Path(temp_file.name)
+    temp_path.replace(DATA_PATH)
 
 
 def load_or_create_dataset(force_refresh: bool = False) -> dict[str, Any]:
@@ -807,10 +858,13 @@ def add_attendee(
         append_attendee_to_workbook(attendee_model)
         dataset = build_dataset()
     else:
-        dataset = load_or_create_dataset()
-        dataset.setdefault("added_records", []).append(attendee)
-        dataset["records"] = parse_attendees_from_workbook() + dataset["added_records"]
-        dataset["generated_at"] = datetime.now(timezone.utc).isoformat()
+        with _exclusive_lock():
+            dataset = load_or_create_dataset()
+            dataset.setdefault("added_records", []).append(attendee)
+            dataset["records"] = parse_attendees_from_workbook() + dataset["added_records"]
+            dataset["generated_at"] = datetime.now(timezone.utc).isoformat()
+            save_dataset(dataset)
+            return attendee
 
     save_dataset(dataset)
     return attendee
